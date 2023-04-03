@@ -629,13 +629,6 @@ public method redoFcSPopulateCollDi (
 
 
 
-
-
-
-
-
-
-
 public method redoFcSStatusCancel (
 )
 {
@@ -659,15 +652,6 @@ public method redoFcSUpdateTermAmount (
 }
 
 
-
-
-
-
-
-
-
-
-
 public method redoGetAaaIdPdis (
 )
 {
@@ -682,9 +666,6 @@ public method redoGetArrangementStatus (
 {
     jBC: REDO.GET.ARRANGEMENT.STATUS
 }
-
-
-
 
 
 public method redoGetTotalInterest (
@@ -829,19 +810,41 @@ public method redoPostArrangementReversal (
 }
 
 
-
-
-
-
-
-
-
-
-
-
 public method redoPostDirectDebitUpdation (
 )
 {
     jBC: REDO.POST.DIRECT.DEBIT.UPDATION
 }
 
+public method redoFcSRepayment (
+)
+{
+    jBC: REDO.FC.S.REPAYMENT
+}
+
+public method redoFiGetAaBals (
+    INOUT inAcctId string,
+    INOUT inBalType string,
+    INOUT outBalArr string
+)
+{
+    jBC: REDO.FI.GET.AA.BALS
+}
+
+public method redoGetAaCustIdNo (
+)
+{
+    jBC: REDO.GET.AA.CUST.ID.NO
+}
+
+public method redoPostChqRevCharge (
+)
+{
+    jBC: REDO.POST.CHQ.REV.CHARGE
+}
+
+public method redoPostChequeUpdate (
+)
+{
+    jBC: REDO.POST.CHEQUE.UPDATE
+}
