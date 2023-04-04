@@ -129,25 +129,25 @@ public method redo163SelCrit (
     jBC: REDO.163.SEL.CRIT
 }
 
-private method redoCancChargePayoffPs (
+public method redoCancChargePayoffPs (
 )
 {
     jBC: REDO.CANC.CHARGE.PAYOFF.PS
 }
 
-private method redoCaplLReStatLineCont (
+public method redoCaplLReStatLineCont (
 )
 {
     jBC: REDO.CAPL.L.RE.STAT.LINE.CONT
 }
 
-private method redoCaplLReStatLineContFields (
+public method redoCaplLReStatLineContFields (
 )
 {
     jBC: REDO.CAPL.L.RE.STAT.LINE.CONT.FIELDS
 }
 
-private method redoCcrgAllowedApp (
+public method redoCcrgAllowedApp (
     INOUT pInRtn string,
     INOUT pInApplication string
 )
@@ -156,74 +156,74 @@ private method redoCcrgAllowedApp (
 }
 
 
-private method redoCcrgBalanceTypeParam (
+public method redoCcrgBalanceTypeParam (
 )
 {
     jBC: REDO.CCRG.BALANCE.TYPE.PARAM
 }
 
-private method redoCcrgCustomer (
+public method redoCcrgCustomer (
 )
 {
     jBC: REDO.CCRG.CUSTOMER
 }
 
-private method redoCcrgCustomerFields (
+public method redoCcrgCustomerFields (
 )
 {
     jBC: REDO.CCRG.CUSTOMER.FIELDS
 }
 
-private method redoCcrgRlBalCusDet (
+public method redoCcrgRlBalCusDet (
 )
 {
     jBC: REDO.CCRG.RL.BAL.CUS.DET
 }
 
-private method redoCcrgRlBalCusDetFields (
+public method redoCcrgRlBalCusDetFields (
 )
 {
     jBC: REDO.CCRG.RL.BAL.CUS.DET.FIELDS
 }
 
-private method redoCcrgRlBalDet (
+public method redoCcrgRlBalDet (
 )
 {
     jBC: REDO.CCRG.RL.BAL.DET
 }
 
-private method redoCcrgRlEffectiveFields (
+public method redoCcrgRlEffectiveFields (
 )
 {
     jBC: REDO.CCRG.RL.EFFECTIVE.FIELDS
 }
 
-private method redoCcrgRlLog (
+public method redoCcrgRlLog (
 )
 {
     jBC: REDO.CCRG.RL.LOG
 }
 
-private method redoCcrgTechnicalReservesAuthorise (
+public method redoCcrgTechnicalReservesAuthorise (
 )
 {
     jBC: REDO.CCRG.TECHNICAL.RESERVES.AUTHORISE
 }
 
-private method redoCcyMktFxsnValidate (
+public method redoCcyMktFxsnValidate (
 )
 {
     jBC: REDO.CCY.MKT.FXSN.VALIDATE
 }
 
-private method redoChangeArrToAccBuild (
+public method redoChangeArrToAccBuild (
     INOUT enqData string
 )
 {
     jBC: REDO.CHANGE.ARR.TO.ACC.BUILD
 }
 
-private method redoChangeClientName (
+public method redoChangeClientName (
 )
 {
     jBC: REDO.CHANGE.CLIENT.NAME
