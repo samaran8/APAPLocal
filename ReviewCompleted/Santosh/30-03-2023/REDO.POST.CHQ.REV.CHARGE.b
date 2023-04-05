@@ -1,3 +1,15 @@
+* @ValidationCode : MjoxNjkwNjk1OTI5OkNwMTI1MjoxNjgwNjA2ODUyNDk1OklUU1MxOi0xOi0xOjA6MDpmYWxzZTpOL0E6UjIxX0FNUi4wOi0xOi0x
+* @ValidationInfo : Timestamp         : 04 Apr 2023 16:44:12
+* @ValidationInfo : Encoding          : Cp1252
+* @ValidationInfo : User Name         : ITSS1
+* @ValidationInfo : Nb tests success  : N/A
+* @ValidationInfo : Nb tests failure  : N/A
+* @ValidationInfo : Rating            : N/A
+* @ValidationInfo : Coverage          : N/A
+* @ValidationInfo : Strict flag       : N/A
+* @ValidationInfo : Bypass GateKeeper : false
+* @ValidationInfo : Compiler Version  : R21_AMR.0
+* @ValidationInfo : Copyright Temenos Headquarters SA 1993-2021. All rights reserved.
 $PACKAGE APAP.AA
 SUBROUTINE REDO.POST.CHQ.REV.CHARGE
     
@@ -54,7 +66,8 @@ GET.AMOUNT:
 *------------------------------------------------------
     Y.CHARGE.AMT = ''
     FIELD.2 = 'LOCAL.REF:':POS.L.BILL.AMOUNT:':1'
-    LOCATE AA$PROPERTY.ID IN AA$R.ARRANGEMENT.ACTIVITY<AA.ARR.ACT.PROPERTY,1> SETTING POS.PROPER THEN
+*    LOCATE AA$PROPERTY.ID IN AA$R.ARRANGEMENT.ACTIVITY<AA.ARR.ACT.PROPERTY,1> SETTING POS.PROPER THEN
+    LOCATE c_aalocPropertyId IN AA$R.ARRANGEMENT.ACTIVITY<AA.ARR.ACT.PROPERTY,1> SETTING POS.PROPER THEN ;*MANUAL R22 CODE CONVERSION
         LOCATE FIELD.2 IN AA$R.ARRANGEMENT.ACTIVITY<AA.ARR.ACT.FIELD.NAME,POS.PROPER,1> SETTING FLD.POS1 THEN
             Y.CHARGE.AMT =  AA$R.ARRANGEMENT.ACTIVITY<AA.ARR.ACT.FIELD.VALUE,POS.PROPER,FLD.POS1>
         END
