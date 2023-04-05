@@ -4,7 +4,7 @@ metamodelVersion 1.6
 # -------------------------------------------------
 
 
-private method RedoFcActPresFields (
+public method RedoFcActPresFields (
 )
 {
     jBC: REDO.FC.ACT.PRES.FIELDS
@@ -12,7 +12,7 @@ private method RedoFcActPresFields (
 
 
 
-private method RedoFcArrangementAuth (
+public method RedoFcArrangementAuth (
 )
 {
     jBC: REDO.FC.ARRANGEMENT.AUTH
@@ -20,7 +20,7 @@ private method RedoFcArrangementAuth (
 
 
 
-private method RedoFcBhValidations (
+public method RedoFcBhValidations (
 )
 {
     jBC: REDO.FC.BH.VALIDATIONS
@@ -28,7 +28,7 @@ private method RedoFcBhValidations (
 
 
 
-private method RedoFcClBalanceHisFields (
+public method RedoFcClBalanceHisFields (
 )
 {
     jBC: REDO.FC.CL.BALANCE.HIS.FIELDS
@@ -36,7 +36,7 @@ private method RedoFcClBalanceHisFields (
 
 
 
-private method RedoFcClProcess (
+public method RedoFcClProcess (
     INOUT yOption string
 )
 {
@@ -45,7 +45,7 @@ private method RedoFcClProcess (
 
 
 
-private method RedoFcClValidate (
+public method RedoFcClValidate (
 )
 {
     jBC: REDO.FC.CL.VALIDATE
@@ -53,7 +53,7 @@ private method RedoFcClValidate (
 
 
 
-private method RedoFcCollTypeParamsFields (
+public method RedoFcCollTypeParamsFields (
 )
 {
     jBC: REDO.FC.COLL.TYPE.PARAMS.FIELDS
@@ -61,7 +61,7 @@ private method RedoFcCollTypeParamsFields (
 
 
 
-private method RedoFcCustSolicitud (
+public method RedoFcCustSolicitud (
 )
 {
     jBC: REDO.FC.CUST.SOLICITUD
@@ -69,7 +69,7 @@ private method RedoFcCustSolicitud (
 
 
 
-private method RedoFcCustSolicitudFields (
+public method RedoFcCustSolicitudFields (
 )
 {
     jBC: REDO.FC.CUST.SOLICITUD.FIELDS
@@ -77,7 +77,7 @@ private method RedoFcCustSolicitudFields (
 
 
 
-private method RedoFcDisFields (
+public method RedoFcDisFields (
 )
 {
     jBC: REDO.FC.DIS.FIELDS
@@ -85,7 +85,7 @@ private method RedoFcDisFields (
 
 
 
-private method RedoFcDisParam (
+public method RedoFcDisParam (
 )
 {
     jBC: REDO.FC.DIS.PARAM
@@ -93,7 +93,7 @@ private method RedoFcDisParam (
 
 
 
-private method RedoFcDisParamFields (
+public method RedoFcDisParamFields (
 )
 {
     jBC: REDO.FC.DIS.PARAM.FIELDS
@@ -101,7 +101,7 @@ private method RedoFcDisParamFields (
 
 
 
-private method RedoFcEnqNoCollDi (
+public method RedoFcEnqNoCollDi (
     INOUT dataOut string
 )
 {
@@ -110,7 +110,7 @@ private method RedoFcEnqNoCollDi (
 
 
 
-private method RedoFcEnqNoCollFs (
+public method RedoFcEnqNoCollFs (
     INOUT dataOut string
 )
 {
@@ -119,7 +119,7 @@ private method RedoFcEnqNoCollFs (
 
 
 
-private method RedoFcEnqNoCollTp (
+public method RedoFcEnqNoCollTp (
     INOUT dataOut string
 )
 {
@@ -128,7 +128,7 @@ private method RedoFcEnqNoCollTp (
 
 
 
-private method RedoFcFillPyshLife (
+public method RedoFcFillPyshLife (
 )
 {
     jBC: REDO.FC.FILL.PYSH.LIFE
@@ -136,7 +136,7 @@ private method RedoFcFillPyshLife (
 
 
 
-private method RedoFcFillPyshLifeFields (
+public method RedoFcFillPyshLifeFields (
 )
 {
     jBC: REDO.FC.FILL.PYSH.LIFE.FIELDS
@@ -144,7 +144,7 @@ private method RedoFcFillPyshLifeFields (
 
 
 
-private method RedoFcFormDisb (
+public method RedoFcFormDisb (
 )
 {
     jBC: REDO.FC.FORM.DISB
@@ -152,7 +152,7 @@ private method RedoFcFormDisb (
 
 
 
-private method RedoFcMethPagoVal (
+public method RedoFcMethPagoVal (
 )
 {
     jBC: REDO.FC.METH.PAGO.VAL
@@ -160,7 +160,7 @@ private method RedoFcMethPagoVal (
 
 
 
-private method RedoFcNfDesCat (
+public method RedoFcNfDesCat (
     INOUT dataOut string
 )
 {
@@ -169,7 +169,7 @@ private method RedoFcNfDesCat (
 
 
 
-private method RedoFcNfNominaExt (
+public method RedoFcNfNominaExt (
     INOUT rData string
 )
 {
@@ -178,7 +178,7 @@ private method RedoFcNfNominaExt (
 
 
 
-private method RedoFcParamsFields (
+public method RedoFcParamsFields (
 )
 {
     jBC: REDO.FC.PARAMS.FIELDS
@@ -186,7 +186,7 @@ private method RedoFcParamsFields (
 
 
 
-private method RedoFcPolTypeClass (
+public method RedoFcPolTypeClass (
 )
 {
     jBC: REDO.FC.POL.TYPE.CLASS
@@ -194,7 +194,7 @@ private method RedoFcPolTypeClass (
 
 
 
-private method RedoFcPolTypeClassFields (
+public method RedoFcPolTypeClassFields (
 )
 {
     jBC: REDO.FC.POL.TYPE.CLASS.FIELDS
@@ -202,7 +202,7 @@ private method RedoFcPolTypeClassFields (
 
 
 
-private method RedoFcSAuthorise (
+public method RedoFcSAuthorise (
     INOUT result string
 )
 {
@@ -211,7 +211,7 @@ private method RedoFcSAuthorise (
 
 
 
-private method RedoFcSBalFall (
+public method RedoFcSBalFall (
 )
 {
     jBC: REDO.FC.S.BAL.FALL
@@ -219,7 +219,7 @@ private method RedoFcSBalFall (
 
 
 
-private method RedoFcSCalcDtVh (
+public method RedoFcSCalcDtVh (
 )
 {
     jBC: REDO.FC.S.CALC.DT.VH
@@ -227,7 +227,7 @@ private method RedoFcSCalcDtVh (
 
 
 
-private method RedoFcSCollDeVa (
+public method RedoFcSCollDeVa (
 )
 {
     jBC: REDO.FC.S.COLL.DE.VA
@@ -235,7 +235,7 @@ private method RedoFcSCollDeVa (
 
 
 
-private method RedoFcSCollDi (
+public method RedoFcSCollDi (
 )
 {
     jBC: REDO.FC.S.COLL.DI
@@ -243,7 +243,7 @@ private method RedoFcSCollDi (
 
 
 
-private method RedoFcSCollDiMontDisp (
+public method RedoFcSCollDiMontDisp (
 )
 {
     jBC: REDO.FC.S.COLL.DI.MONT.DISP
@@ -251,7 +251,7 @@ private method RedoFcSCollDiMontDisp (
 
 
 
-private method RedoFcSCollVhVa (
+public method RedoFcSCollVhVa (
 )
 {
     jBC: REDO.FC.S.COLL.VH.VA
@@ -259,7 +259,7 @@ private method RedoFcSCollVhVa (
 
 
 
-private method RedoFcSConditionVh (
+public method RedoFcSConditionVh (
 )
 {
     jBC: REDO.FC.S.CONDITION.VH
@@ -267,7 +267,7 @@ private method RedoFcSConditionVh (
 
 
 
-private method RedoFcSDocValidate (
+public method RedoFcSDocValidate (
 )
 {
     jBC: REDO.FC.S.DOC.VALIDATE
@@ -275,7 +275,7 @@ private method RedoFcSDocValidate (
 
 
 
-private method RedoFcSInsPolAmt (
+public method RedoFcSInsPolAmt (
 )
 {
     jBC: REDO.FC.S.INS.POL.AMT
@@ -283,7 +283,7 @@ private method RedoFcSInsPolAmt (
 
 
 
-private method RedoFcSInsVal (
+public method RedoFcSInsVal (
 )
 {
     jBC: REDO.FC.S.INS.VAL
@@ -291,7 +291,7 @@ private method RedoFcSInsVal (
 
 
 
-private method RedoFcSMapping (
+public method RedoFcSMapping (
     INOUT pCollCode string,
     INOUT yIdColl string,
     INOUT yAv string
@@ -302,7 +302,7 @@ private method RedoFcSMapping (
 
 
 
-private method RedoFcSModchr (
+public method RedoFcSModchr (
 )
 {
     jBC: REDO.FC.S.MODCHR
@@ -310,7 +310,7 @@ private method RedoFcSModchr (
 
 
 
-private method RedoFcSProdCollTypeCg (
+public method RedoFcSProdCollTypeCg (
     INOUT enqData string
 )
 {
@@ -319,7 +319,7 @@ private method RedoFcSProdCollTypeCg (
 
 
 
-private method RedoFcSProdVal (
+public method RedoFcSProdVal (
 )
 {
     jBC: REDO.FC.S.PROD.VAL
@@ -327,7 +327,7 @@ private method RedoFcSProdVal (
 
 
 
-private method RedoFcSProdValDao (
+public method RedoFcSProdValDao (
 )
 {
     jBC: REDO.FC.S.PROD.VAL.DAO
@@ -335,7 +335,7 @@ private method RedoFcSProdValDao (
 
 
 
-private method RedoFcSProductColl (
+public method RedoFcSProductColl (
 )
 {
     jBC: REDO.FC.S.PRODUCT.COLL
@@ -343,7 +343,7 @@ private method RedoFcSProductColl (
 
 
 
-private method RedoFcSolicitudData (
+public method RedoFcSolicitudData (
     INOUT solData string
 )
 {
@@ -352,7 +352,7 @@ private method RedoFcSolicitudData (
 
 
 
-private method RedoFcSolicitudFields (
+public method RedoFcSolicitudFields (
 )
 {
     jBC: REDO.FC.SOLICITUD.FIELDS
@@ -360,7 +360,7 @@ private method RedoFcSolicitudFields (
 
 
 
-private method RedoFcTempDisb (
+public method RedoFcTempDisb (
 )
 {
     jBC: REDO.FC.TEMP.DISB
@@ -368,7 +368,7 @@ private method RedoFcTempDisb (
 
 
 
-private method RedoFcTempDisbFields (
+public method RedoFcTempDisbFields (
 )
 {
     jBC: REDO.FC.TEMP.DISB.FIELDS
@@ -376,7 +376,7 @@ private method RedoFcTempDisbFields (
 
 
 
-private method RedoFcValPlazo (
+public method RedoFcValPlazo (
 )
 {
     jBC: REDO.FC.VAL.PLAZO
@@ -384,7 +384,7 @@ private method RedoFcValPlazo (
 
 
 
-private method RedoFcValTt (
+public method RedoFcValTt (
 )
 {
     jBC: REDO.FC.VAL.TT
@@ -392,7 +392,7 @@ private method RedoFcValTt (
 
 
 
-private method RedoFcValValueDate (
+public method RedoFcValValueDate (
 )
 {
     jBC: REDO.FC.VAL.VALUE.DATE
@@ -400,7 +400,7 @@ private method RedoFcValValueDate (
 
 
 
-private method RedoFcyAutPerformReversal (
+public method RedoFcyAutPerformReversal (
 )
 {
     jBC: REDO.FCY.AUT.PERFORM.REVERSAL
@@ -408,7 +408,7 @@ private method RedoFcyAutPerformReversal (
 
 
 
-private method RedoFiCentralBankFile (
+public method RedoFiCentralBankFile (
     INOUT iXmlMsg string,
     INOUT oErrorMsg string
 )
@@ -418,7 +418,7 @@ private method RedoFiCentralBankFile (
 
 
 
-private method RedoFiControlAuth (
+public method RedoFiControlAuth (
 )
 {
     jBC: REDO.FI.CONTROL.AUTH
@@ -426,7 +426,7 @@ private method RedoFiControlAuth (
 
 
 
-private method RedoFiControl (
+public method RedoFiControl (
 )
 {
     jBC: REDO.FI.CONTROL
@@ -434,7 +434,7 @@ private method RedoFiControl (
 
 
 
-private method RedoFiControlDigit (
+public method RedoFiControlDigit (
     INOUT inText string,
     INOUT inDig string,
     INOUT inErr string
@@ -445,7 +445,7 @@ private method RedoFiControlDigit (
 
 
 
-private method RedoFiExtPayrollValidate (
+public method RedoFiExtPayrollValidate (
     INOUT inTxtMsg string,
     INOUT outVarWork string,
     INOUT outTxtMsg string,
@@ -458,7 +458,7 @@ private method RedoFiExtPayrollValidate (
 
 
 
-private method RedoFiFtProcess (
+public method RedoFiFtProcess (
     INOUT yRecId string
 )
 {
@@ -467,7 +467,7 @@ private method RedoFiFtProcess (
 
 
 
-private method RedoFiFtProcessLoad (
+public method RedoFiFtProcessLoad (
 )
 {
     jBC: REDO.FI.FT.PROCESS.LOAD
@@ -475,7 +475,7 @@ private method RedoFiFtProcessLoad (
 
 
 
-private method RedoFiFtProcessPost (
+public method RedoFiFtProcessPost (
 )
 {
     jBC: REDO.FI.FT.PROCESS.POST
@@ -483,7 +483,7 @@ private method RedoFiFtProcessPost (
 
 
 
-private method RedoFiLbBprocDet (
+public method RedoFiLbBprocDet (
 )
 {
     jBC: REDO.FI.LB.BPROC.DET
@@ -491,7 +491,7 @@ private method RedoFiLbBprocDet (
 
 
 
-private method RedoFiLbBprocDetFields (
+public method RedoFiLbBprocDetFields (
 )
 {
     jBC: REDO.FI.LB.BPROC.DET.FIELDS
@@ -499,7 +499,7 @@ private method RedoFiLbBprocDetFields (
 
 
 
-private method RedoFiLbBprocFields (
+public method RedoFiLbBprocFields (
 )
 {
     jBC: REDO.FI.LB.BPROC.FIELDS
@@ -507,7 +507,7 @@ private method RedoFiLbBprocFields (
 
 
 
-private method RedoFiLbBprocValidaStatus (
+public method RedoFiLbBprocValidaStatus (
 )
 {
     jBC: REDO.FI.LB.BPROC.VALIDA.STATUS
@@ -515,7 +515,7 @@ private method RedoFiLbBprocValidaStatus (
 
 
 
-private method RedoFiLbEExtrParam (
+public method RedoFiLbEExtrParam (
     INOUT dataOut string
 )
 {
@@ -524,7 +524,7 @@ private method RedoFiLbEExtrParam (
 
 
 
-private method RedoFiLbGenerateAmnts (
+public method RedoFiLbGenerateAmnts (
     INOUT compType string,
     INOUT dataIn string,
     INOUT dataOut string
@@ -535,7 +535,7 @@ private method RedoFiLbGenerateAmnts (
 
 
 
-private method RedoFiLbGenerateData (
+public method RedoFiLbGenerateData (
     INOUT aaPaySchId string
 )
 {
@@ -544,7 +544,7 @@ private method RedoFiLbGenerateData (
 
 
 
-private method RedoFiLbGenerateDataLoad (
+public method RedoFiLbGenerateDataLoad (
 )
 {
     jBC: REDO.FI.LB.GENERATE.DATA.LOAD
@@ -552,7 +552,7 @@ private method RedoFiLbGenerateDataLoad (
 
 
 
-private method RedoFiLbRecalcDataSelect (
+public method RedoFiLbRecalcDataSelect (
 )
 {
     jBC: REDO.FI.LB.RECALC.DATA.SELECT
@@ -560,7 +560,7 @@ private method RedoFiLbRecalcDataSelect (
 
 
 
-private method RedoFiMailFormatGen (
+public method RedoFiMailFormatGen (
     INOUT yFiControl string,
     INOUT datrep string
 )
@@ -570,7 +570,7 @@ private method RedoFiMailFormatGen (
 
 
 
-private method RedoFiMsgFormat (
+public method RedoFiMsgFormat (
     INOUT interfaceId string,
     INOUT datoIn string,
     INOUT datoOut string
@@ -581,7 +581,7 @@ private method RedoFiMsgFormat (
 
 
 
-private method RedoFiOrangeDdFile (
+public method RedoFiOrangeDdFile (
     INOUT inDir string,
     INOUT outErro string
 )
@@ -591,7 +591,7 @@ private method RedoFiOrangeDdFile (
 
 
 
-private method RedoFiPayrollValidate (
+public method RedoFiPayrollValidate (
     INOUT inTxtMsg string,
     INOUT outVarWork string,
     INOUT outTxtMsg string,
@@ -603,7 +603,7 @@ private method RedoFiPayrollValidate (
 
 
 
-private method RedoFiPreformatMsg (
+public method RedoFiPreformatMsg (
     INOUT inInterface string,
     INOUT inFieldType string,
     INOUT inMsg string,
@@ -616,7 +616,7 @@ private method RedoFiPreformatMsg (
 
 
 
-private method RedoFiRclUsd (
+public method RedoFiRclUsd (
 )
 {
     jBC: REDO.FI.RCL.USD
@@ -624,7 +624,7 @@ private method RedoFiRclUsd (
 
 
 
-private method RedoFiRecordControl (
+public method RedoFiRecordControl (
     INOUT oErrorMsg string
 )
 {
