@@ -267,7 +267,6 @@ public method redoFcEnqmainFields (
 }
 
 
-
 public method redoFcEnqparms (
 )
 {
