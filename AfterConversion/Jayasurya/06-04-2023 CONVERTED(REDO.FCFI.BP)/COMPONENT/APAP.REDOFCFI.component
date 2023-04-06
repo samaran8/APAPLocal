@@ -3,7 +3,7 @@ component APAP.REDOFCFI
 metamodelVersion 1.6
 # -------------------------------------------------
 
-private method redoFcSStatusCancel (
+public method redoFcSStatusCancel (
 )
 {
     jBC: REDO.FC.S.STATUS.CANCEL
@@ -11,7 +11,7 @@ private method redoFcSStatusCancel (
 
 
 
-private method redoFcSolicitudAuthorise (
+public method redoFcSolicitudAuthorise (
 )
 {
     jBC: REDO.FC.SOLICITUD.AUTHORISE
@@ -19,7 +19,7 @@ private method redoFcSolicitudAuthorise (
 
 
 
-private method redoFcSolicitud (
+public method redoFcSolicitud (
 )
 {
     jBC: REDO.FC.SOLICITUD
@@ -27,7 +27,7 @@ private method redoFcSolicitud (
 
 
 
-private method redoFcTypeident (
+public method redoFcTypeident (
 )
 {
     jBC: REDO.FC.TYPEIDENT
@@ -35,7 +35,7 @@ private method redoFcTypeident (
 
 
 
-private method redoFcTypeidentFields (
+public method redoFcTypeidentFields (
 )
 {
     jBC: REDO.FC.TYPEIDENT.FIELDS
@@ -43,7 +43,7 @@ private method redoFcTypeidentFields (
 
 
 
-private method redoFcVLoadDisb (
+public method redoFcVLoadDisb (
 )
 {
     jBC: REDO.FC.V.LOAD.DISB
@@ -51,7 +51,7 @@ private method redoFcVLoadDisb (
 
 
 
-private method redoFcVLoadPartDisb (
+public method redoFcVLoadPartDisb (
 )
 {
     jBC: REDO.FC.V.LOAD.PART.DISB
@@ -59,7 +59,7 @@ private method redoFcVLoadPartDisb (
 
 
 
-private method redoFcValAmount (
+public method redoFcValAmount (
 )
 {
     jBC: REDO.FC.VAL.AMOUNT
@@ -67,7 +67,7 @@ private method redoFcValAmount (
 
 
 
-private method redoFcValCurrency (
+public method redoFcValCurrency (
 )
 {
     jBC: REDO.FC.VAL.CURRENCY
@@ -75,7 +75,7 @@ private method redoFcValCurrency (
 
 
 
-private method redoFeeCollectInp (
+public method redoFeeCollectInp (
 )
 {
     jBC: REDO.FEE.COLLECT.INP
@@ -83,7 +83,7 @@ private method redoFeeCollectInp (
 
 
 
-private method redoFeecollect (
+public method redoFeecollect (
 )
 {
     jBC: REDO.FEECOLLECT
@@ -91,7 +91,7 @@ private method redoFeecollect (
 
 
 
-private method redoFeecollectFields (
+public method redoFeecollectFields (
 )
 {
     jBC: REDO.FEECOLLECT.FIELDS
@@ -99,7 +99,7 @@ private method redoFeecollectFields (
 
 
 
-private method redoFeecollectValidate (
+public method redoFeecollectValidate (
 )
 {
     jBC: REDO.FEECOLLECT.VALIDATE
@@ -107,7 +107,7 @@ private method redoFeecollectValidate (
 
 
 
-private method redoFiAccountCustomerInfo (
+public method redoFiAccountCustomerInfo (
     INOUT iAccount string,
     INOUT oCustomerInfo string,
     INOUT oErrorMsg string
@@ -118,7 +118,7 @@ private method redoFiAccountCustomerInfo (
 
 
 
-private method redoFiCalcCheckDigit (
+public method redoFiCalcCheckDigit (
    INOUT fiStandardAccount string,
    INOUT werrorMsg string
 )
@@ -128,7 +128,7 @@ private method redoFiCalcCheckDigit (
 
 
 
-private method redoFiControlFields (
+public method redoFiControlFields (
 )
 {
    jBC: REDO.FI.CONTROL.FIELDS
@@ -139,7 +139,7 @@ private method redoFiControlFields (
 
 
 
-private method redoFiConvertXmlToTxt (
+public method redoFiConvertXmlToTxt (
    INOUT iXmlMsg string,
    INOUT oRTxtMsg string,
    INOUT oErrMsg string
@@ -150,7 +150,7 @@ private method redoFiConvertXmlToTxt (
 
 
 
-private method redoFiENofReport (
+public method redoFiENofReport (
    INOUT datrep string
 )
 {
@@ -159,7 +159,7 @@ private method redoFiENofReport (
 
 
 
-private method redoFiEPlanillaMain (
+public method redoFiEPlanillaMain (
    INOUT dataOut string
 )
 {
@@ -168,7 +168,7 @@ private method redoFiEPlanillaMain (
 
 
 
-private method redoFiExtPayrollFile (
+public method redoFiExtPayrollFile (
    INOUT inTxtMsg string,
    INOUT outErrMsg string
 )
@@ -178,7 +178,7 @@ private method redoFiExtPayrollFile (
 
 
 
-private method redoFiFtProcessSelect (
+public method redoFiFtProcessSelect (
 )
 {
    jBC: REDO.FI.FT.PROCESS.SELECT
@@ -186,7 +186,7 @@ private method redoFiFtProcessSelect (
 
 
 
-private method redoFiGetDirList (
+public method redoFiGetDirList (
    INOUT paramId string,
    INOUT wError string
 )
@@ -196,7 +196,7 @@ private method redoFiGetDirList (
 
 
 
-private method redoFiInMsg (
+public method redoFiInMsg (
    INOUT yInMsg string
 )
 {
@@ -205,7 +205,7 @@ private method redoFiInMsg (
 
 
 
-private method redoFiInputDaemon (
+public method redoFiInputDaemon (
 )
 {
    jBC: REDO.FI.INPUT.DAEMON
@@ -213,7 +213,7 @@ private method redoFiInputDaemon (
 
 
 
-private method redoFiIntPayrollFile (
+public method redoFiIntPayrollFile (
    INOUT inTxtMsg string,
    INOUT outErrMsg string
 )
@@ -223,7 +223,7 @@ private method redoFiIntPayrollFile (
 
 
 
-private method redoFiLbBproc (
+public method redoFiLbBproc (
 )
 {
    jBC: REDO.FI.LB.BPROC
@@ -231,7 +231,7 @@ private method redoFiLbBproc (
 
 
 
-private method redoFiLbBuildRtn (
+public method redoFiLbBuildRtn (
    INOUT enqData string
 )
 {
@@ -240,7 +240,7 @@ private method redoFiLbBuildRtn (
 
 
 
-private method redoFiLbCollTxnProcess (
+public method redoFiLbCollTxnProcess (
    INOUT dataIn string,
    INOUT pmtRefId string
 )
@@ -250,7 +250,7 @@ private method redoFiLbCollTxnProcess (
 
 
 
-private method redoFiLbCollect (
+public method redoFiLbCollect (
    INOUT paramAnsId string
 )
 {
@@ -259,7 +259,7 @@ private method redoFiLbCollect (
 
 
 
-private method redoFiLbCollectBuildRtn (
+public method redoFiLbCollectBuildRtn (
    INOUT enqData string
 )
 {
@@ -268,7 +268,7 @@ private method redoFiLbCollectBuildRtn (
 
 
 
-private method redoFiLbCollectLoad (
+public method redoFiLbCollectLoad (
 )
 {
    jBC: REDO.FI.LB.COLLECT.LOAD
@@ -276,7 +276,7 @@ private method redoFiLbCollectLoad (
 
 
 
-private method redoFiLbCollectSelect (
+public method redoFiLbCollectSelect (
 )
 {
    jBC: REDO.FI.LB.COLLECT.SELECT
@@ -284,7 +284,7 @@ private method redoFiLbCollectSelect (
 
 
 
-private method redoFiLbGenerateDataPost (
+public method redoFiLbGenerateDataPost (
 )
 {
    jBC: REDO.FI.LB.GENERATE.DATA.POST
@@ -292,7 +292,7 @@ private method redoFiLbGenerateDataPost (
 
 
 
-private method redoFiLbGenerateDataSelect (
+public method redoFiLbGenerateDataSelect (
 )
 {
    jBC: REDO.FI.LB.GENERATE.DATA.SELECT
@@ -300,7 +300,7 @@ private method redoFiLbGenerateDataSelect (
 
 
 
-private method redoFiLbRecalcBuildRtn (
+public method redoFiLbRecalcBuildRtn (
    INOUT enqData string
 )
 {
@@ -309,7 +309,7 @@ private method redoFiLbRecalcBuildRtn (
 
 
 
-private method redoFiLbRecalcData (
+public method redoFiLbRecalcData (
    INOUT aaPaySchId string
 )
 {
@@ -318,7 +318,7 @@ private method redoFiLbRecalcData (
 
 
 
-private method redoFiLbRecalcDataLoad (
+public method redoFiLbRecalcDataLoad (
 )
 {
    jBC: REDO.FI.LB.RECALC.DATA.LOAD
@@ -326,7 +326,7 @@ private method redoFiLbRecalcDataLoad (
 
 
 
-private method redoFiLbRecalcDataPost (
+public method redoFiLbRecalcDataPost (
 )
 {
    jBC: REDO.FI.LB.RECALC.DATA.POST
@@ -334,7 +334,7 @@ private method redoFiLbRecalcDataPost (
 
 
 
-private method redoFiOrangePaymentsInit (
+public method redoFiOrangePaymentsInit (
 )
 {
    jBC: REDO.FI.ORANGE.PAYMENTS.INIT
@@ -342,7 +342,7 @@ private method redoFiOrangePaymentsInit (
 
 
 
-private method redoFiOrangePaymentsLoad (
+public method redoFiOrangePaymentsLoad (
 )
 {
    jBC: REDO.FI.ORANGE.PAYMENTS.LOAD
@@ -350,7 +350,7 @@ private method redoFiOrangePaymentsLoad (
 
 
 
-private method redoFiOrangePaymentsPost (
+public method redoFiOrangePaymentsPost (
 )
 {
    jBC: REDO.FI.ORANGE.PAYMENTS.POST
@@ -358,7 +358,7 @@ private method redoFiOrangePaymentsPost (
 
 
 
-private method redoFiOrangePaymentsSelect (
+public method redoFiOrangePaymentsSelect (
 )
 {
    jBC: REDO.FI.ORANGE.PAYMENTS.SELECT
@@ -366,7 +366,7 @@ private method redoFiOrangePaymentsSelect (
 
 
 
-private method redoFiPayrollFile (
+public method redoFiPayrollFile (
    INOUT inTxtMsg string,
    INOUT outErrMsg string
 )
@@ -376,7 +376,7 @@ private method redoFiPayrollFile (
 
 
 
-private method redoFiRecordTxnDetails (
+public method redoFiRecordTxnDetails (
    INOUT rParams string,
    INOUT inResult string,
    INOUT inRef string,
@@ -388,7 +388,7 @@ private method redoFiRecordTxnDetails (
 
 
 
-private method redoFiRipPlanillaInpRtn (
+public method redoFiRipPlanillaInpRtn (
 )
 {
    jBC: REDO.FI.RIP.PLANILLA.INP.RTN
@@ -396,7 +396,7 @@ private method redoFiRipPlanillaInpRtn (
 
 
 
-private method redoFiValidateHeadAndData (
+public method redoFiValidateHeadAndData (
    INOUT yInpTxtMsg string,
    INOUT iRPosValues string,
    INOUT oRValues string,
