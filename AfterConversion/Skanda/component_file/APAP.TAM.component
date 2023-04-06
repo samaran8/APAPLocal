@@ -4,7 +4,7 @@ metamodelVersion 1.6
 # -------------------------------------------------
 
 
-private method ebAccountingWrapper (
+public method ebAccountingWrapper (
     INOUT systemId string,
     INOUT type string,
     INOUT entryArray string,
@@ -17,7 +17,7 @@ private method ebAccountingWrapper (
 
 
 
-private method ebFieldNumbersToNames (
+public method ebFieldNumbersToNames (
     INOUT inFieldNumber string,
     INOUT fieldName string,
     INOUT errMsg string
@@ -28,7 +28,7 @@ private method ebFieldNumbersToNames (
 
 
 
-private method ebValidateTsmStatus (
+public method ebValidateTsmStatus (
     INOUT werrorMsg string
 )
 {
@@ -37,7 +37,7 @@ private method ebValidateTsmStatus (
 
 
 
-private method interfaceConfigPrtFields (
+public method interfaceConfigPrtFields (
 )
 {
     jBC: INTERFACE.CONFIG.PRT.FIELDS
@@ -45,7 +45,7 @@ private method interfaceConfigPrtFields (
 
 
 
-private method issdChqInPay (
+public method issdChqInPay (
     INOUT yReturnArray string
 )
 {
@@ -54,7 +54,7 @@ private method issdChqInPay (
 
 
 
-private method latamDcMagParavia (
+public method latamDcMagParavia (
 )
 {
     jBC: LATAM.DC.MAG.PARAVIA
@@ -62,7 +62,7 @@ private method latamDcMagParavia (
 
 
 
-private method multiGetLocRef (
+public method multiGetLocRef (
     INOUT applArr string,
     INOUT fieldnameArr string,
     INOUT posArr string
@@ -73,7 +73,7 @@ private method multiGetLocRef (
 
 
 
-private method multiTransactionAccount (
+public method multiTransactionAccount (
 )
 {
     jBC: MULTI.TRANSACTION.ACCOUNT
@@ -81,7 +81,7 @@ private method multiTransactionAccount (
 
 
 
-private method multiTransactionServiceVRtn (
+public method multiTransactionServiceVRtn (
 )
 {
     jBC: MULTI.TRANSACTION.SERVICE.V.RTN
@@ -89,7 +89,7 @@ private method multiTransactionServiceVRtn (
 
 
 
-private method multiTransactionServiceValaidate (
+public method multiTransactionServiceValaidate (
 )
 {
     jBC: MULTI.TRANSACTION.SERVICE.VALAIDATE
@@ -97,7 +97,7 @@ private method multiTransactionServiceValaidate (
 
 
 
-private method multiTransactionServiceValidate (
+public method multiTransactionServiceValidate (
 )
 {
     jBC: MULTI.TRANSACTION.SERVICE.VALIDATE
@@ -105,7 +105,7 @@ private method multiTransactionServiceValidate (
 
 
 
-private method pacs00254281Correction (
+public method pacs00254281Correction (
 )
 {
     jBC: PACS00254281.CORRECTION
@@ -113,7 +113,7 @@ private method pacs00254281Correction (
 
 
 
-private method rdoTtEfectEnvBcTillMl (
+public method rdoTtEfectEnvBcTillMl (
     INOUT vDrDenominatio string
 )
 {
@@ -122,7 +122,7 @@ private method rdoTtEfectEnvBcTillMl (
 
 
 
-private method reReadConsolidateCond (
+public method reReadConsolidateCond (
     INOUT condId string,
     INOUT condRec string,
     INOUT errMsg string
@@ -133,7 +133,7 @@ private method reReadConsolidateCond (
 
 
 
-private method redoCallUtilRtn (
+public method redoCallUtilRtn (
 )
 {
     jBC: REDO.CALL.UTIL.RTN
@@ -141,7 +141,7 @@ private method redoCallUtilRtn (
 
 
 
-private method redoCampaignTypes (
+public method redoCampaignTypes (
 )
 {
     jBC: REDO.CAMPAIGN.TYPES
@@ -149,7 +149,7 @@ private method redoCampaignTypes (
 
 
 
-private method redoCampaignTypesFields (
+public method redoCampaignTypesFields (
 )
 {
     jBC: REDO.CAMPAIGN.TYPES.FIELDS
@@ -157,7 +157,7 @@ private method redoCampaignTypesFields (
 
 
 
-private method redoCashierRolesFields (
+public method redoCashierRolesFields (
 )
 {
     jBC: REDO.CASHIER.ROLES.FIELDS
@@ -165,7 +165,7 @@ private method redoCashierRolesFields (
 
 
 
-private method redoCategoryCiuu (
+public method redoCategoryCiuu (
 )
 {
     jBC: REDO.CATEGORY.CIUU
@@ -173,713 +173,713 @@ private method redoCategoryCiuu (
 
 
 
-private method redoCategoryCiuuFields (
+public method redoCategoryCiuuFields (
 )
 {
-   jBC: REDO.CATEGORY.CIUU.FIELDS
+    jBC: REDO.CATEGORY.CIUU.FIELDS
 }
 
 
 
-private method redoCcrgContractBal (
+public method redoCcrgContractBal (
 )
 {
-   jBC: REDO.CCRG.CONTRACT.BAL
+    jBC: REDO.CCRG.CONTRACT.BAL
 }
 
 
 
-private method redoCcrgContractBalFields (
+public method redoCcrgContractBalFields (
 )
 {
-   jBC: REDO.CCRG.CONTRACT.BAL.FIELDS
+    jBC: REDO.CCRG.CONTRACT.BAL.FIELDS
 }
 
 
 
-private method redoCcrgCustomerAuthorise (
+public method redoCcrgCustomerAuthorise (
 )
 {
-   jBC: REDO.CCRG.CUSTOMER.AUTHORISE
+    jBC: REDO.CCRG.CUSTOMER.AUTHORISE
 }
 
 
 
-private method redoCcrgRiskLimitParamId (
+public method redoCcrgRiskLimitParamId (
 )
 {
-   jBC: REDO.CCRG.RISK.LIMIT.PARAM.ID
+    jBC: REDO.CCRG.RISK.LIMIT.PARAM.ID
 }
 
 
 
-private method redoCcrgRiskLimitParamRecord (
+public method redoCcrgRiskLimitParamRecord (
 )
 {
-   jBC: REDO.CCRG.RISK.LIMIT.PARAM.RECORD
+    jBC: REDO.CCRG.RISK.LIMIT.PARAM.RECORD
 }
 
 
 
-private method redoCcrgRiskLimitParamValidate (
+public method redoCcrgRiskLimitParamValidate (
 )
 {
-   jBC: REDO.CCRG.RISK.LIMIT.PARAM.VALIDATE
+    jBC: REDO.CCRG.RISK.LIMIT.PARAM.VALIDATE
 }
 
 
 
-private method redoCcrgRlEffective (
+public method redoCcrgRlEffective (
 )
 {
-   jBC: REDO.CCRG.RL.EFFECTIVE
+    jBC: REDO.CCRG.RL.EFFECTIVE
 }
 
 
 
-private method redoCcrgRlEffectiveCustomer (
+public method redoCcrgRlEffectiveCustomer (
 )
 {
-   jBC: REDO.CCRG.RL.EFFECTIVE.CUSTOMER
+    jBC: REDO.CCRG.RL.EFFECTIVE.CUSTOMER
 }
 
 
 
-private method redoCcrgRlEffectiveCustomerFields (
+public method redoCcrgRlEffectiveCustomerFields (
 )
 {
-   jBC: REDO.CCRG.RL.EFFECTIVE.CUSTOMER.FIELDS
+    jBC: REDO.CCRG.RL.EFFECTIVE.CUSTOMER.FIELDS
 }
 
 
 
-private method redoCcrgValidateConditions (
-   INOUT rInConditions string,
-   INOUT rInValues string
+public method redoCcrgValidateConditions (
+    INOUT rInConditions string,
+    INOUT rInValues string
 )
 {
-   jBC: REDO.CCRG.VALIDATE.CONDITIONS
+    jBC: REDO.CCRG.VALIDATE.CONDITIONS
 }
 
 
 
-private method redoCcyMktFxsn (
+public method redoCcyMktFxsn (
 )
 {
-   jBC: REDO.CCY.MKT.FXSN
+    jBC: REDO.CCY.MKT.FXSN
 }
 
 
 
-private method redoCcyMktFxsnFields (
+public method redoCcyMktFxsnFields (
 )
 {
-   jBC: REDO.CCY.MKT.FXSN.FIELDS
+    jBC: REDO.CCY.MKT.FXSN.FIELDS
 }
 
 
 
-private method redoChargeType (
+public method redoChargeType (
 )
 {
-   jBC: REDO.CHARGE.TYPE
+    jBC: REDO.CHARGE.TYPE
 }
 
 
 
-private method redoChargeTypeFields (
+public method redoChargeTypeFields (
 )
 {
-   jBC: REDO.CHARGE.TYPE.FIELDS
+    jBC: REDO.CHARGE.TYPE.FIELDS
 }
 
 
 
-private method redoCheckAcctCcy (
+public method redoCheckAcctCcy (
 )
 {
-   jBC: REDO.CHECK.ACCT.CCY
+    jBC: REDO.CHECK.ACCT.CCY
 }
 
 
 
-private method redoCheckReqMassive (
+public method redoCheckReqMassive (
 )
 {
-   jBC: REDO.CHECK.REQ.MASSIVE
+    jBC: REDO.CHECK.REQ.MASSIVE
 }
 
 
 
-private method redoCheckReqReplace (
+public method redoCheckReqReplace (
 )
 {
-   jBC: REDO.CHECK.REQ.REPLACE
+    jBC: REDO.CHECK.REQ.REPLACE
 }
 
 
 
-private method redoCheckReversalDelete (
+public method redoCheckReversalDelete (
 )
 {
-   jBC: REDO.CHECK.REVERSAL.DELETE
+    jBC: REDO.CHECK.REVERSAL.DELETE
 }
 
 
 
-private method redoChequeProcessValidate (
+public method redoChequeProcessValidate (
 )
 {
-   jBC: REDO.CHEQUE.PROCESS.VALIDATE
+    jBC: REDO.CHEQUE.PROCESS.VALIDATE
 }
 
 
 
-private method redoChequeStopPara (
+public method redoChequeStopPara (
 )
 {
-   jBC: REDO.CHEQUE.STOP.PARA
+    jBC: REDO.CHEQUE.STOP.PARA
 }
 
 
 
-private method redoChequeStopParaFields (
+public method redoChequeStopParaFields (
 )
 {
-   jBC: REDO.CHEQUE.STOP.PARA.FIELDS
+    jBC: REDO.CHEQUE.STOP.PARA.FIELDS
 }
 
 
 
-private method redoChkDebitCardNumber (
+public method redoChkDebitCardNumber (
 )
 {
-   jBC: REDO.CHK.DEBIT.CARD.NUMBER
+    jBC: REDO.CHK.DEBIT.CARD.NUMBER
 }
 
 
 
-private method redoChkDepositAmt (
+public method redoChkDepositAmt (
 )
 {
-   jBC: REDO.CHK.DEPOSIT.AMT
+    jBC: REDO.CHK.DEPOSIT.AMT
 }
 
 
 
-private method redoChkIdStockVault (
+public method redoChkIdStockVault (
 )
 {
-   jBC: REDO.CHK.ID.STOCK.VAULT
+    jBC: REDO.CHK.ID.STOCK.VAULT
 }
 
 
 
-private method redoChkVerifyRelatedUser (
+public method redoChkVerifyRelatedUser (
 )
 {
-   jBC: REDO.CHK.VERIFY.RELATED.USER
+    jBC: REDO.CHK.VERIFY.RELATED.USER
 }
 
 
 
-private method redoChkVirginStockRegister (
+public method redoChkVirginStockRegister (
 )
 {
-   jBC: REDO.CHK.VIRGIN.STOCK.REGISTER
+    jBC: REDO.CHK.VIRGIN.STOCK.REGISTER
 }
 
 
 
-private method redoChqChangeVer (
+public method redoChqChangeVer (
 )
 {
-   jBC: REDO.CHQ.CHANGE.VER
+    jBC: REDO.CHQ.CHANGE.VER
 }
 
 
 
-private method redoCkColAreaPayoff (
+public method redoCkColAreaPayoff (
 )
 {
-   jBC: REDO.CK.COL.AREA.PAYOFF
+    jBC: REDO.CK.COL.AREA.PAYOFF
 }
 
 
 
-private method redoCkPayoffBills (
+public method redoCkPayoffBills (
 )
 {
-   jBC: REDO.CK.PAYOFF.BILLS
+    jBC: REDO.CK.PAYOFF.BILLS
 }
 
 
 
-private method redoCkPayoffDisburse (
+public method redoCkPayoffDisburse (
 )
 {
-   jBC: REDO.CK.PAYOFF.DISBURSE
+    jBC: REDO.CK.PAYOFF.DISBURSE
 }
 
 
 
-private method redoClaimStatusMapFields (
+public method redoClaimStatusMapFields (
 )
 {
-   jBC: REDO.CLAIM.STATUS.MAP.FIELDS
+    jBC: REDO.CLAIM.STATUS.MAP.FIELDS
 }
 
 
 
-private method redoClaimStatusMapId (
+public method redoClaimStatusMapId (
 )
 {
-   jBC: REDO.CLAIM.STATUS.MAP.ID
+    jBC: REDO.CLAIM.STATUS.MAP.ID
 }
 
 
 
-private method redoClaimStatusMapValidate (
+public method redoClaimStatusMapValidate (
 )
 {
-   jBC: REDO.CLAIM.STATUS.MAP.VALIDATE
+    jBC: REDO.CLAIM.STATUS.MAP.VALIDATE
 }
 
 
 
-private method redoCnvFtTtVersion (
+public method redoCnvFtTtVersion (
 )
 {
-   jBC: REDO.CNV.FT.TT.VERSION
+    jBC: REDO.CNV.FT.TT.VERSION
 }
 
 
 
-private method redoCobNcfCharges (
+public method redoCobNcfCharges (
 )
 {
-   jBC: REDO.COB.NCF.CHARGES
+    jBC: REDO.COB.NCF.CHARGES
 }
 
 
 
-private method redoCobNcfChargesFields (
+public method redoCobNcfChargesFields (
 )
 {
-   jBC: REDO.COB.NCF.CHARGES.FIELDS
+    jBC: REDO.COB.NCF.CHARGES.FIELDS
 }
 
 
 
-private method redoConProdCode (
+public method redoConProdCode (
 )
 {
-   jBC: REDO.CON.PROD.CODE
+    jBC: REDO.CON.PROD.CODE
 }
 
 
 
-private method redoConProdDes (
+public method redoConProdDes (
 )
 {
-   jBC: REDO.CON.PROD.DES
+    jBC: REDO.CON.PROD.DES
 }
 
 
 
-private method redoConcatPenaltyUpdate (
+public method redoConcatPenaltyUpdate (
 )
 {
-   jBC: REDO.CONCAT.PENALTY.UPDATE
+    jBC: REDO.CONCAT.PENALTY.UPDATE
 }
 
 
 
-private method redoConvertNumToWords (
-   INOUT inAmt string,
-   INOUT outAmt string,
-   INOUT lineLength string,
-   INOUT noOfLines string,
-   INOUT errMsg string
+public method redoConvertNumToWords (
+    INOUT inAmt string,
+    INOUT outAmt string,
+    INOUT lineLength string,
+    INOUT noOfLines string,
+    INOUT errMsg string
 )
 {
-   jBC: REDO.CONVERT.NUM.TO.WORDS
+    jBC: REDO.CONVERT.NUM.TO.WORDS
 }
 
 
 
-private method redoCorrAthTermLocName (
+public method redoCorrAthTermLocName (
 )
 {
-   jBC: REDO.CORR.ATH.TERM.LOC.NAME
+    jBC: REDO.CORR.ATH.TERM.LOC.NAME
 }
 
 
 
-private method redoCosRtn (
+public method redoCosRtn (
 )
 {
-   jBC: REDO.COS.RTN
+    jBC: REDO.COS.RTN
 }
 
 
 
-private method redoCreateArrangementAIns (
-   INOUT result string
+public method redoCreateArrangementAIns (
+    INOUT result string
 )
 {
-   jBC: REDO.CREATE.ARRANGEMENT.A.INS
+    jBC: REDO.CREATE.ARRANGEMENT.A.INS
 }
 
 
 
-private method redoCreateArrangementALimit (
-   INOUT result string
+public method redoCreateArrangementALimit (
+    INOUT result string
 )
 {
-   jBC: REDO.CREATE.ARRANGEMENT.A.LIMIT
+    jBC: REDO.CREATE.ARRANGEMENT.A.LIMIT
 }
 
 
 
-private method redoCreateArrangementAuthorise (
+public method redoCreateArrangementAuthorise (
 )
 {
-   jBC: REDO.CREATE.ARRANGEMENT.AUTHORISE
+    jBC: REDO.CREATE.ARRANGEMENT.AUTHORISE
 }
 
 
 
-private method redoCreateArrangementRecord (
+public method redoCreateArrangementRecord (
 )
 {
-   jBC: REDO.CREATE.ARRANGEMENT.RECORD
+    jBC: REDO.CREATE.ARRANGEMENT.RECORD
 }
 
 
 
-private method redoCreateArrangementValidate (
+public method redoCreateArrangementValidate (
 )
 {
-   jBC: REDO.CREATE.ARRANGEMENT.VALIDATE
+    jBC: REDO.CREATE.ARRANGEMENT.VALIDATE
 }
 
 
 
-private method redoCreateLimitId (
+public method redoCreateLimitId (
 )
 {
-   jBC: REDO.CREATE.LIMIT.ID
+    jBC: REDO.CREATE.LIMIT.ID
 }
 
 
 
-private method redoCrmDocumentationProcessSelect (
+public method redoCrmDocumentationProcessSelect (
 )
 {
-   jBC: REDO.CRM.DOCUMENTATION.PROCESS.SELECT
+    jBC: REDO.CRM.DOCUMENTATION.PROCESS.SELECT
 }
 
 
 
-private method redoCrmExpiryProcess (
-   INOUT yReqId string
+public method redoCrmExpiryProcess (
+    INOUT yReqId string
 )
 {
-   jBC: REDO.CRM.EXPIRY.PROCESS
+    jBC: REDO.CRM.EXPIRY.PROCESS
 }
 
 
 
-private method redoCrmExpiryProcessLoad (
+public method redoCrmExpiryProcessLoad (
 )
 {
-   jBC: REDO.CRM.EXPIRY.PROCESS.LOAD
+    jBC: REDO.CRM.EXPIRY.PROCESS.LOAD
 }
 
 
 
-private method redoDcStlmtErrCodeFields (
+public method redoDcStlmtErrCodeFields (
 )
 {
-   jBC: REDO.DC.STLMT.ERR.CODE.FIELDS
+    jBC: REDO.DC.STLMT.ERR.CODE.FIELDS
 }
 
 
 
-private method redoDcTxnInst (
+public method redoDcTxnInst (
 )
 {
-   jBC: REDO.DC.TXN.INST
+    jBC: REDO.DC.TXN.INST
 }
 
 
 
-private method redoDcTxnInstFields (
+public method redoDcTxnInstFields (
 )
 {
-   jBC: REDO.DC.TXN.INST.FIELDS
+    jBC: REDO.DC.TXN.INST.FIELDS
 }
 
 
 
-private method redoDefaultCollateralVal (
+public method redoDefaultCollateralVal (
 )
 {
-   jBC: REDO.DEFAULT.COLLATERAL.VAL
+    jBC: REDO.DEFAULT.COLLATERAL.VAL
 }
 
 
 
-private method redoDelPendHis (
-   INOUT delRec string
+public method redoDelPendHis (
+    INOUT delRec string
 )
 {
-   jBC: REDO.DEL.PEND.HIS
+    jBC: REDO.DEL.PEND.HIS
 }
 
 
 
-private method redoDelPendHisLoad (
+public method redoDelPendHisLoad (
 )
 {
-   jBC: REDO.DEL.PEND.HIS.LOAD
+    jBC: REDO.DEL.PEND.HIS.LOAD
 }
 
 
 
-private method redoDsDate (
-   INOUT dsDate string
+public method redoDsDate (
+    INOUT dsDate string
 )
 {
-   jBC: REDO.DS.DATE
+    jBC: REDO.DS.DATE
 }
 
 
 
-private method redoEmpRespMvmt (
+public method redoEmpRespMvmt (
 )
 {
-   jBC: REDO.EMP.RESP.MVMT
+    jBC: REDO.EMP.RESP.MVMT
 }
 
 
 
-private method redoEmpRespMvmtFields (
+public method redoEmpRespMvmtFields (
 )
 {
-   jBC: REDO.EMP.RESP.MVMT.FIELDS
+    jBC: REDO.EMP.RESP.MVMT.FIELDS
 }
 
 
 
-private method redoEmployeeAccounts (
+public method redoEmployeeAccounts (
 )
 {
-   jBC: REDO.EMPLOYEE.ACCOUNTS
+    jBC: REDO.EMPLOYEE.ACCOUNTS
 }
 
 
 
-private method redoFiDebitProcesBacen (
-   INOUT rParams string,
-   INOUT outResp string,
-   INOUT outErr string
+public method redoFiDebitProcesBacen (
+    INOUT rParams string,
+    INOUT outResp string,
+    INOUT outErr string
 )
 {
-   jBC: REDO.FI.DEBIT.PROCES.BACEN
+    jBC: REDO.FI.DEBIT.PROCES.BACEN
 }
 
 
 
-private method redoFiDebitProcesOrange (
-   INOUT rParams string,
-   INOUT outResp string,
-   INOUT outErr string
+public method redoFiDebitProcesOrange (
+    INOUT rParams string,
+    INOUT outResp string,
+    INOUT outErr string
 )
 {
-   jBC: REDO.FI.DEBIT.PROCES.ORANGE
+    jBC: REDO.FI.DEBIT.PROCES.ORANGE
 }
 
 
 
-private method redoFiExtDebitProces (
-   INOUT rParams string,
-   INOUT outResp string,
-   INOUT outErr string
+public method redoFiExtDebitProces (
+    INOUT rParams string,
+    INOUT outResp string,
+    INOUT outErr string
 )
 {
-   jBC: REDO.FI.EXT.DEBIT.PROCES
+    jBC: REDO.FI.EXT.DEBIT.PROCES
 }
 
 
 
-private method redoFiLbApplyPymt (
-   INOUT dataIn string,
-   INOUT dataOut string
+public method redoFiLbApplyPymt (
+    INOUT dataIn string,
+    INOUT dataOut string
 )
 {
-   jBC: REDO.FI.LB.APPLY.PYMT
+    jBC: REDO.FI.LB.APPLY.PYMT
 }
 
 
 
-private method redoFindOfac (
+public method redoFindOfac (
 )
 {
-   jBC: REDO.FIND.OFAC
+    jBC: REDO.FIND.OFAC
 }
 
 
 
-private method redoFmtAchAmount (
+public method redoFmtAchAmount (
 )
 {
-   jBC: REDO.FMT.ACH.AMOUNT
+    jBC: REDO.FMT.ACH.AMOUNT
 }
 
 
 
-private method redoFmtAchRevDate (
+public method redoFmtAchRevDate (
 )
 {
-   jBC: REDO.FMT.ACH.REV.DATE
+    jBC: REDO.FMT.ACH.REV.DATE
 }
 
 
 
-private method redoFmtAchRevFtId (
+public method redoFmtAchRevFtId (
 )
 {
-   jBC: REDO.FMT.ACH.REV.FT.ID
+    jBC: REDO.FMT.ACH.REV.FT.ID
 }
 
 
 
-private method redoForexSeqNumFields (
+public method redoForexSeqNumFields (
 )
 {
-   jBC: REDO.FOREX.SEQ.NUM.FIELDS
+    jBC: REDO.FOREX.SEQ.NUM.FIELDS
 }
 
 
 
-private method redoForexSeqNumId (
+public method redoForexSeqNumId (
 )
 {
-   jBC: REDO.FOREX.SEQ.NUM.ID
+    jBC: REDO.FOREX.SEQ.NUM.ID
 }
 
 
 
-private method redoForexSeqNumValidate (
+public method redoForexSeqNumValidate (
 )
 {
-   jBC: REDO.FOREX.SEQ.NUM.VALIDATE
+    jBC: REDO.FOREX.SEQ.NUM.VALIDATE
 }
 
 
 
-private method redoFormCustEmployee (
+public method redoFormCustEmployee (
 )
 {
-   jBC: REDO.FORM.CUST.EMPLOYEE
+    jBC: REDO.FORM.CUST.EMPLOYEE
 }
 
 
 
-private method redoFrameBatchTrailer (
+public method redoFrameBatchTrailer (
 )
 {
-   jBC: REDO.FRAME.BATCH.TRAILER
+    jBC: REDO.FRAME.BATCH.TRAILER
 }
 
 
 
-private method redoFrameFileHeader (
+public method redoFrameFileHeader (
 )
 {
-   jBC: REDO.FRAME.FILE.HEADER
+    jBC: REDO.FRAME.FILE.HEADER
 }
 
 
 
-private method redoFrameFileTrailer (
+public method redoFrameFileTrailer (
 )
 {
-   jBC: REDO.FRAME.FILE.TRAILER
+    jBC: REDO.FRAME.FILE.TRAILER
 }
 
 
 
-private method redoFrontClaims (
+public method redoFrontClaims (
 )
 {
-   jBC: REDO.FRONT.CLAIMS
+    jBC: REDO.FRONT.CLAIMS
 }
 
 
 
-private method redoFrontRequestsFields (
+public method redoFrontRequestsFields (
 )
 {
-   jBC: REDO.FRONT.REQUESTS.FIELDS
+    jBC: REDO.FRONT.REQUESTS.FIELDS
 }
 
 
 
-private method redoFrontRequestsId (
+public method redoFrontRequestsId (
 )
 {
-   jBC: REDO.FRONT.REQUESTS.ID
+    jBC: REDO.FRONT.REQUESTS.ID
 }
 
 
 
-private method redoFtAccSel (
+public method redoFtAccSel (
 )
 {
-   jBC: REDO.FT.ACC.SEL
+    jBC: REDO.FT.ACC.SEL
 }
 
 
 
-private method redoFtAccountSelect (
+public method redoFtAccountSelect (
 )
 {
-   jBC: REDO.FT.ACCOUNT.SELECT
+    jBC: REDO.FT.ACCOUNT.SELECT
 }
 
 
 
-private method redoFtDsTaxAmt (
-   INOUT yWvTaxAmt string
+public method redoFtDsTaxAmt (
+    INOUT yWvTaxAmt string
 )
 {
-   jBC: REDO.FT.DS.TAX.AMT
+    jBC: REDO.FT.DS.TAX.AMT
 }
 
 
 
-private method redoFtHis (
+public method redoFtHis (
 )
 {
-   jBC: REDO.FT.HIS
+    jBC: REDO.FT.HIS
 }
 
 
 
-private method redoFtHisFields (
+public method redoFtHisFields (
 )
 {
-   jBC: REDO.FT.HIS.FIELDS
+    jBC: REDO.FT.HIS.FIELDS
 }
 
 
 
-private method redoFtLaunchSupportingEnq (
+public method redoFtLaunchSupportingEnq (
 )
 {
-   jBC: REDO.FT.LAUNCH.SUPPORTING.ENQ
+    jBC: REDO.FT.LAUNCH.SUPPORTING.ENQ
 }
 
