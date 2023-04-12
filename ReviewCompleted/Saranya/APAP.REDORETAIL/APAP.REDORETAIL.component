@@ -402,15 +402,15 @@ public method latamCardOrderAuthorise (
 }
 
 public method latamCardOrderSplitProcess (
-   INOUT accountId string,
-   INOUT account string,
-   INOUT cardCharge string,
-   INOUT charges string,
-   INOUT chargeDate string,
-   INOUT lcyAmt string
+    INOUT accountId string,
+    INOUT account string,
+    INOUT cardCharge string,
+    INOUT charges string,
+    INOUT chargeDate string,
+    INOUT lcyAmt string
 )
 {
-   jBC: LATAM.CARD.ORDER.SPLIT.PROCESS
+    jBC: LATAM.CARD.ORDER.SPLIT.PROCESS
 }
 
 
@@ -418,7 +418,7 @@ public method latamCardOrderSplitProcess (
 public method latamCardOrderSplitValidate1 (
 )
 {
-   jBC: LATAM.CARD.ORDER.SPLIT.VALIDATE.1
+    jBC: LATAM.CARD.ORDER.SPLIT.VALIDATE.1
 }
 
 
@@ -426,7 +426,7 @@ public method latamCardOrderSplitValidate1 (
 public method latamCardOrderSplitValidate2 (
 )
 {
-   jBC: LATAM.CARD.ORDER.SPLIT.VALIDATE.2
+    jBC: LATAM.CARD.ORDER.SPLIT.VALIDATE.2
 }
 
 
@@ -434,14 +434,14 @@ public method latamCardOrderSplitValidate2 (
 public method latamCardOrderSplitValidate3 (
 )
 {
-   jBC: LATAM.CARD.ORDER.SPLIT.VALIDATE.3
+    jBC: LATAM.CARD.ORDER.SPLIT.VALIDATE.3
 }
 
 
 public method latamCardOrderSplitValidate (
 )
 {
-   jBC: LATAM.CARD.ORDER.SPLIT.VALIDATE
+    jBC: LATAM.CARD.ORDER.SPLIT.VALIDATE
 }
 
 
@@ -449,7 +449,7 @@ public method latamCardOrderSplitValidate (
 public method latamCardOrderValidate (
 )
 {
-   jBC: LATAM.CARD.ORDER.VALIDATE
+    jBC: LATAM.CARD.ORDER.VALIDATE
 }
 
 
@@ -457,7 +457,7 @@ public method latamCardOrderValidate (
 public method latamCardRegister (
 )
 {
-   jBC: LATAM.CARD.REGISTER
+    jBC: LATAM.CARD.REGISTER
 }
 
 
@@ -465,7 +465,7 @@ public method latamCardRegister (
 public method latamCardRegisterFields (
 )
 {
-   jBC: LATAM.CARD.REGISTER.FIELDS
+    jBC: LATAM.CARD.REGISTER.FIELDS
 }
 
 
@@ -473,7 +473,7 @@ public method latamCardRegisterFields (
 public method latamCrrValCardAccount (
 )
 {
-   jBC: LATAM.CRR.VAL.CARD.ACCOUNT
+    jBC: LATAM.CRR.VAL.CARD.ACCOUNT
 }
 
 
@@ -481,7 +481,7 @@ public method latamCrrValCardAccount (
 public method redoAAcctClosure (
 )
 {
-   jBC: REDO.A.ACCT.CLOSURE
+    jBC: REDO.A.ACCT.CLOSURE
 }
 
 
@@ -489,7 +489,7 @@ public method redoAAcctClosure (
 public method redoAAtmRevLyPts (
 )
 {
-   jBC: REDO.A.ATM.REV.LY.PTS
+    jBC: REDO.A.ATM.REV.LY.PTS
 }
 
 
@@ -497,7 +497,7 @@ public method redoAAtmRevLyPts (
 public method redoACallAccountingDel (
 )
 {
-   jBC: REDO.A.CALL.ACCOUNTING.DEL
+    jBC: REDO.A.CALL.ACCOUNTING.DEL
 }
 
 
@@ -505,7 +505,7 @@ public method redoACallAccountingDel (
 public method redoACallAccountingNew (
 )
 {
-   jBC: REDO.A.CALL.ACCOUNTING.NEW
+    jBC: REDO.A.CALL.ACCOUNTING.NEW
 }
 
 
@@ -513,7 +513,7 @@ public method redoACallAccountingNew (
 public method redoACallAccountingRev (
 )
 {
-   jBC: REDO.A.CALL.ACCOUNTING.REV
+    jBC: REDO.A.CALL.ACCOUNTING.REV
 }
 
 
@@ -521,7 +521,7 @@ public method redoACallAccountingRev (
 public method redoACardType (
 )
 {
-   jBC: REDO.A.CARD.TYPE
+    jBC: REDO.A.CARD.TYPE
 }
 
 
@@ -529,7 +529,7 @@ public method redoACardType (
 public method redoAChqRevChgs (
 )
 {
-   jBC: REDO.A.CHQ.REV.CHGS
+    jBC: REDO.A.CHQ.REV.CHGS
 }
 
 
@@ -537,7 +537,7 @@ public method redoAChqRevChgs (
 public method redoAFcPassport (
 )
 {
-   jBC: REDO.A.FC.PASSPORT
+    jBC: REDO.A.FC.PASSPORT
 }
 
 
@@ -545,7 +545,7 @@ public method redoAFcPassport (
 public method redoARevPymntVp (
 )
 {
-   jBC: REDO.A.REV.PYMNT.VP
+    jBC: REDO.A.REV.PYMNT.VP
 }
 
 
@@ -553,7 +553,7 @@ public method redoARevPymntVp (
 public method redoASyncMasterData (
 )
 {
-   jBC: REDO.A.SYNC.MASTER.DATA
+    jBC: REDO.A.SYNC.MASTER.DATA
 }
 
 
@@ -561,25 +561,25 @@ public method redoASyncMasterData (
 public method redoAUpdAllIds (
 )
 {
-   jBC: REDO.A.UPD.ALL.IDS
+    jBC: REDO.A.UPD.ALL.IDS
 }
 
 
 
 public method redoAcCancPoder (
-   INOUT yEnqOut string
+    INOUT yEnqOut string
 )
 {
-   jBC: REDO.AC.CANC.PODER
+    jBC: REDO.AC.CANC.PODER
 }
 
 
 
 public method redoAcPoder (
-   INOUT yEnqOut string
+    INOUT yEnqOut string
 )
 {
-   jBC: REDO.AC.PODER
+    jBC: REDO.AC.PODER
 }
 
 
@@ -587,7 +587,7 @@ public method redoAcPoder (
 public method redoAcPoolRateChange (
 )
 {
-   jBC: REDO.AC.POOL.RATE.CHANGE
+    jBC: REDO.AC.POOL.RATE.CHANGE
 }
 
 
@@ -595,7 +595,7 @@ public method redoAcPoolRateChange (
 public method redoAcPrintMask (
 )
 {
-   jBC: REDO.AC.PRINT.MASK
+    jBC: REDO.AC.PRINT.MASK
 }
 
 
@@ -603,7 +603,7 @@ public method redoAcPrintMask (
 public method redoAcPrintMaskFields (
 )
 {
-   jBC: REDO.AC.PRINT.MASK.FIELDS
+    jBC: REDO.AC.PRINT.MASK.FIELDS
 }
 
 
@@ -611,7 +611,7 @@ public method redoAcPrintMaskFields (
 public method redoAcTutor (
 )
 {
-   jBC: REDO.AC.TUTOR
+    jBC: REDO.AC.TUTOR
 }
 
 
@@ -619,7 +619,7 @@ public method redoAcTutor (
 public method redoAccCrInt (
 )
 {
-   jBC: REDO.ACC.CR.INT
+    jBC: REDO.ACC.CR.INT
 }
 
 
@@ -627,7 +627,7 @@ public method redoAccCrInt (
 public method redoAccCrIntFields (
 )
 {
-   jBC: REDO.ACC.CR.INT.FIELDS
+    jBC: REDO.ACC.CR.INT.FIELDS
 }
 
 
@@ -635,7 +635,7 @@ public method redoAccCrIntFields (
 public method redoAccCrIntId (
 )
 {
-   jBC: REDO.ACC.CR.INT.ID
+    jBC: REDO.ACC.CR.INT.ID
 }
 
 
@@ -643,7 +643,7 @@ public method redoAccCrIntId (
 public method redoAccReasonUpdate (
 )
 {
-   jBC: REDO.ACC.REASON.UPDATE
+    jBC: REDO.ACC.REASON.UPDATE
 }
 public method redoAcctCompExce (
 )
@@ -716,3 +716,592 @@ public method redoAcctIstRespMapFields (
 {
     jBC: REDO.ACCT.IST.RESP.MAP.FIELDS
 }
+
+public method redoAcctIstRespMapId (
+)
+{
+    jBC: REDO.ACCT.IST.RESP.MAP.ID
+}
+
+
+
+public method redoAcctIstRespMapValidate (
+)
+{
+    jBC: REDO.ACCT.IST.RESP.MAP.VALIDATE
+}
+
+
+
+public method redoAcctMrkwofHist (
+)
+{
+    jBC: REDO.ACCT.MRKWOF.HIST
+}
+
+
+
+public method redoAcctMrkwofHistFields (
+)
+{
+    jBC: REDO.ACCT.MRKWOF.HIST.FIELDS
+}
+
+
+
+public method redoAcctMrkwofParameter (
+)
+{
+    jBC: REDO.ACCT.MRKWOF.PARAMETER
+}
+
+
+
+public method redoAcctMrkwofParameterFields (
+)
+{
+    jBC: REDO.ACCT.MRKWOF.PARAMETER.FIELDS
+}
+
+
+
+public method redoAcctStatusCode (
+)
+{
+    jBC: REDO.ACCT.STATUS.CODE
+}
+
+
+
+public method redoAcctStatusCodeFields (
+)
+{
+    jBC: REDO.ACCT.STATUS.CODE.FIELDS
+}
+
+
+public method redoAchApapFtReversal (
+)
+{
+    jBC: REDO.ACH.APAP.FT.REVERSAL
+}
+
+
+
+
+public method redoAchDate (
+)
+{
+    jBC: REDO.ACH.DATE
+}
+
+
+
+public method redoAchDateFields (
+)
+{
+    jBC: REDO.ACH.DATE.FIELDS
+}
+
+
+
+public method redoAchDetIds (
+)
+{
+    jBC: REDO.ACH.DET.IDS
+}
+
+
+
+public method redoAchDetIdsFields (
+)
+{
+    jBC: REDO.ACH.DET.IDS.FIELDS
+}
+
+
+
+public method redoAchFileUpdFtReversal (
+)
+{
+    jBC: REDO.ACH.FILE.UPD.FT.REVERSAL
+}
+
+
+
+public method redoAchInwAltAcct (
+)
+{
+    jBC: REDO.ACH.INW.ALT.ACCT
+}
+
+
+
+public method redoAchInwAltAcctCus (
+)
+{
+    jBC: REDO.ACH.INW.ALT.ACCT.CUS
+}
+
+
+
+
+public method redoAchInwOmsg (
+    INOUT yOutMessage string
+)
+{
+    jBC: REDO.ACH.INW.OMSG
+}
+
+
+
+public method redoAchParam (
+)
+{
+    jBC: REDO.ACH.PARAM
+}
+
+
+
+public method redoAchParamFields (
+)
+{
+    jBC: REDO.ACH.PARAM.FIELDS
+}
+
+
+
+public method redoAchParamValidate (
+)
+{
+    jBC: REDO.ACH.PARAM.VALIDATE
+}
+
+public method redoAchParticipants (
+)
+{
+    jBC: REDO.ACH.PARTICIPANTS
+}
+
+
+
+public method redoAchParticipantsFields (
+)
+{
+    jBC: REDO.ACH.PARTICIPANTS.FIELDS
+}
+
+
+
+public method redoAchProcIds (
+)
+{
+    jBC: REDO.ACH.PROC.IDS
+}
+
+
+
+public method redoAchProcIdsFields (
+)
+{
+    jBC: REDO.ACH.PROC.IDS.FIELDS
+}
+
+
+
+public method redoAchProcess (
+)
+{
+    jBC: REDO.ACH.PROCESS
+}
+
+
+
+public method redoAchProcessDet (
+)
+{
+    jBC: REDO.ACH.PROCESS.DET
+}
+
+
+
+public method redoAchProcessDetFields (
+)
+{
+    jBC: REDO.ACH.PROCESS.DET.FIELDS
+}
+
+
+
+public method redoAchProcessDetId (
+)
+{
+    jBC: REDO.ACH.PROCESS.DET.ID
+}
+
+
+
+public method redoAchProcessFields (
+)
+{
+    jBC: REDO.ACH.PROCESS.FIELDS
+}
+
+
+
+public method redoAchProcessId (
+)
+{
+    jBC: REDO.ACH.PROCESS.ID
+}
+
+
+
+public method redoAchRefUpdFtReversal (
+)
+{
+    jBC: REDO.ACH.REF.UPD.FT.REVERSAL
+}
+
+
+
+public method redoAchRejectCode (
+)
+{
+    jBC: REDO.ACH.REJECT.CODE
+}
+
+
+
+public method redoAchRejectCodeFields (
+)
+{
+    jBC: REDO.ACH.REJECT.CODE.FIELDS
+}
+
+
+
+public method redoAchTransferDetails (
+)
+{
+    jBC: REDO.ACH.TRANSFER.DETAILS
+}
+
+
+
+public method redoAchTransferDetailsFields (
+)
+{
+    jBC: REDO.ACH.TRANSFER.DETAILS.FIELDS
+}
+
+
+
+public method redoAciAzIntRate (
+    INOUT yAzAccountId string,
+    INOUT yAciOfsArray string,
+    INOUT yMaturityDate string,
+    INOUT varIntRate string
+)
+{
+    jBC: REDO.ACI.AZ.INT.RATE
+}
+
+
+
+public method redoAmortSecTrade (
+)
+{
+    jBC: REDO.AMORT.SEC.TRADE
+}
+
+
+
+public method redoAmortSecTradeFields (
+)
+{
+    jBC: REDO.AMORT.SEC.TRADE.FIELDS
+}
+
+
+
+public method redoAmortSecTradeUpdate (
+)
+{
+    jBC: REDO.AMORT.SEC.TRADE.UPDATE
+}
+
+
+
+public method redoAzAcAutFdPrec (
+)
+{
+    jBC: REDO.AZ.AC.AUT.FD.PREC
+}
+
+
+
+public method redoAzAcDelClose (
+)
+{
+    jBC: REDO.AZ.AC.DEL.CLOSE
+}
+
+
+
+public method redoAzAcFdPrecInp (
+)
+{
+    jBC: REDO.AZ.AC.FD.PREC.INP
+}
+
+
+
+public method redoAzAcInpGraEndDate (
+)
+{
+    jBC: REDO.AZ.AC.INP.GRA.END.DATE
+}
+
+
+
+public method redoAzAcPrecRecRollOver (
+)
+{
+    jBC: REDO.AZ.AC.PREC.REC.ROLL.OVER
+}
+
+
+
+public method redoAzAcPrecValPenalPcnt (
+)
+{
+    jBC: REDO.AZ.AC.PREC.VAL.PENAL.PCNT
+}
+
+
+
+public method redoAzAcctAmt (
+)
+{
+    jBC: REDO.AZ.ACCT.AMT
+}
+
+
+
+public method redoAzBuildData (
+    INOUT enqDetails string
+)
+{
+    jBC: REDO.AZ.BUILD.DATA
+}
+
+
+
+public method redoAzDateAuth (
+)
+{
+    jBC: REDO.AZ.DATE.AUTH
+}
+
+
+
+public method redoAzDateCalc (
+    INOUT ySelectId string
+)
+{
+    jBC: REDO.AZ.DATE.CALC
+}
+
+
+
+public method redoAzDateCalcLoad (
+)
+{
+    jBC: REDO.AZ.DATE.CALC.LOAD
+}
+
+
+
+public method redoAzDateCalcSelect (
+)
+{
+    jBC: REDO.AZ.DATE.CALC.SELECT
+}
+
+
+
+public method redoAzDiscountRate (
+)
+{
+    jBC: REDO.AZ.DISCOUNT.RATE
+}
+
+
+
+public method redoAzDiscountRateFields (
+)
+{
+    jBC: REDO.AZ.DISCOUNT.RATE.FIELDS
+}
+
+
+
+public method redoAzDiscountRateValidate (
+)
+{
+    jBC: REDO.AZ.DISCOUNT.RATE.VALIDATE
+}
+
+
+
+public method redoAzDslipAmountRtn (
+    INOUT yAmt string
+)
+{
+    jBC: REDO.AZ.DSLIP.AMOUNT.RTN
+}
+
+
+
+public method redoAzDslipRtn (
+    INOUT yRet string
+)
+{
+    jBC: REDO.AZ.DSLIP.RTN
+}
+
+
+
+public method redoAzFundParam (
+)
+{
+    jBC: REDO.AZ.FUND.PARAM
+}
+
+
+public method redoAzFundParamFields (
+)
+{
+    jBC: REDO.AZ.FUND.PARAM.FIELDS
+}
+
+
+
+public method redoAzFundParamValidate (
+)
+{
+    jBC: REDO.AZ.FUND.PARAM.VALIDATE
+}
+
+
+
+public method redoAzIdSmsCheck (
+)
+{
+    jBC: REDO.AZ.ID.SMS.CHECK
+}
+
+
+
+public method redoAzInvFacUpdOtime (
+)
+{
+    jBC: REDO.AZ.INV.FAC.UPD.OTIME
+}
+
+
+
+public method redoAzMaturityDate (
+    INOUT sysDate string
+)
+{
+    jBC: REDO.AZ.MATURITY.DATE
+}
+
+
+
+public method redoAzPenalAmtCalc (
+    INOUT penalPer string,
+    INOUT prDepDays string,
+    INOUT penAmt string
+)
+{
+    jBC: REDO.AZ.PENAL.AMT.CALC
+}
+
+
+
+public method redoAzRollIntRate (
+    INOUT getRate string
+)
+{
+    jBC: REDO.AZ.ROLL.INT.RATE
+}
+
+
+
+public method redoAzRolloverDefault (
+)
+{
+    jBC: REDO.AZ.ROLLOVER.DEFAULT
+}
+
+
+
+public method redoAzRolloverDetails (
+)
+{
+    jBC: REDO.AZ.ROLLOVER.DETAILS
+}
+
+
+
+public method redoAzRolloverDetailsFields (
+)
+{
+    jBC: REDO.AZ.ROLLOVER.DETAILS.FIELDS
+}
+
+
+
+public method redoAzTtAutFdPrec (
+)
+{
+    jBC: REDO.AZ.TT.AUT.FD.PREC
+}
+
+
+
+public method redoAzTtPrecRec (
+)
+{
+    jBC: REDO.AZ.TT.PREC.REC
+}
+
+
+
+public method redoAzTtValPenalpc (
+)
+{
+    jBC: REDO.AZ.TT.VAL.PENALPC
+}
+
+
+
+public method redoAzWriteTrace (
+    INOUT yRtnName string,
+    INOUT yAzId string
+)
+{
+    jBC: REDO.AZ.WRITE.TRACE
+}
+
+
+
+public method redoAzaccDesc (
+)
+{
+    jBC: REDO.AZACC.DESC
+}
+
