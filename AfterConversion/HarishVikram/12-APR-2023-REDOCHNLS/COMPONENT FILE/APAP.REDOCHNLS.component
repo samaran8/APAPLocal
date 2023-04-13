@@ -261,3 +261,90 @@ public method redoAthFldVal (
    jBC: REDO.ATH.FLD.VAL
 }
 
+
+public method redoIvrParamsAlloper (
+)
+{
+    jBC: REDO.IVR.PARAMS.ALLOPER
+}
+
+
+
+public method redoIvrParamsAlloperFields (
+)
+{
+    jBC: REDO.IVR.PARAMS.ALLOPER.FIELDS
+}
+
+
+
+public method redoIvrParams (
+)
+{
+    jBC: REDO.IVR.PARAMS
+}
+
+
+
+public method redoIvrProcess (
+    INOUT rData string
+)
+{
+    jBC: REDO.IVR.PROCESS
+}
+
+
+public method redoIvrReceptor (
+)
+{
+    jBC: REDO.IVR.RECEPTOR
+}
+
+
+
+public method redoIvrReceptorFields (
+)
+{
+    jBC: REDO.IVR.RECEPTOR.FIELDS
+}
+
+
+
+public method redoIvrRespTws (
+    INOUT yResponse string
+)
+{
+    jBC: REDO.IVR.RESP.TWS
+}
+
+
+public method redoIvrRespTws2 (
+    INOUT yResponse string
+)
+{
+    jBC: REDO.IVR.RESP.TWS2
+}
+
+
+public method redoIvrVAccbaldr (
+)
+{
+    jBC: REDO.IVR.V.ACCBALDR
+}
+
+
+public method redoIvrVAccstabal (
+)
+{
+    jBC: REDO.IVR.V.ACCSTABAL
+}
+
+
+
+public method redoIvrVAccstabaldr (
+)
+{
+    jBC: REDO.IVR.V.ACCSTABALDR
+}
+
+
