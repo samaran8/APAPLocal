@@ -3,7 +3,6 @@ component APAP.TAM
 metamodelVersion 1.6
 # -------------------------------------------------
 
-
 public method RedoRejectReason (
 )
 {
@@ -21,7 +20,11 @@ public method RedoRejectReasonFields (
 
 
 public method RedoRelcusQtyDepsOne (
-    INOUT CustId depCntr twentCntr fiftyCntr moreCntr string
+    INOUT CustId string,
+    INOUT depCntr string,
+    INOUT twentCntr string,
+    INOUT fiftyCntr string,
+    INOUT moreCntr string
 )
 {
     jBC:REDO.RELCUS.QTY.DEPS.ONE
@@ -30,7 +33,8 @@ public method RedoRelcusQtyDepsOne (
 
 
 public method RedoRelcusQtyDepsTwent (
-    INOUT CustId twentCntr string
+    INOUT CustId string,
+    INOUT twentCntr string
 )
 {
     jBC:REDO.RELCUS.QTY.DEPS.TWENT
@@ -39,7 +43,8 @@ public method RedoRelcusQtyDepsTwent (
 
 
 public method RedoRelcusQtyWthdrsFifty (
-    INOUT CustId wthdrsCntr3 string
+    INOUT CustId string,
+    INOUT wthdrsCntr3 string
 )
 {
     jBC:REDO.RELCUS.QTY.WTHDRS.FIFTY
@@ -96,7 +101,8 @@ public method RedoRestrictEnqData (
 
 
 public method RedoRevTxnAuthCode (
-    INOUT YCardNumIn retVal string
+    INOUT YCardNumIn string,
+    INOUT retVal string
 )
 {
     jBC:REDO.REV.TXN.AUTH.CODE
@@ -113,7 +119,8 @@ public method RedoRevUpdDisbChain (
 
 
 public method RedoReverseManuEntry (
-    INOUT PrinAmt intAmt string
+    INOUT PrinAmt string,
+    INOUT intAmt string
 )
 {
     jBC:REDO.REVERSE.MANU.ENTRY
@@ -131,7 +138,8 @@ public method RedoRouCreditAzDepAc (
 
 
 public method RedoRptAcctAltLoans (
-    INOUT AcctGrp yPrevAccount string
+    INOUT AcctGrp string,
+    INOUT yPrevAccount string
 )
 {
     jBC:REDO.RPT.ACCT.ALT.LOANS
@@ -140,7 +148,9 @@ public method RedoRptAcctAltLoans (
 
 
 public method RedoRptClseWriteLoans (
-    INOUT AaArrId rAaArr arraygpVal string
+    INOUT AaArrId string,
+    INOUT rAaArr string,
+    INOUT arraygpVal string
 )
 {
     jBC:REDO.RPT.CLSE.WRITE.LOANS
@@ -149,7 +159,13 @@ public method RedoRptClseWriteLoans (
 
 
 public method RedoScCalculateDprice (
-    INOUT Settlement MaturityDate Yld YearDaysBasis Price Reserved2 Reserved1 string
+    INOUT Settlement string,
+    INOUT MaturityDate string,
+    INOUT Yld string,
+    INOUT YearDaysBasis string,
+    INOUT Price string,
+    INOUT Reserved2 string,
+    INOUT Reserved1 string
 )
 {
     jBC:REDO.SC.CALCULATE.DPRICE
@@ -158,7 +174,17 @@ public method RedoScCalculateDprice (
 
 
 public method RedoScCalculatePrice (
-    INOUT Settlement MaturityDate Rate Yld Redemption Freq YearDaysBasis Price Rounding AccrStDate YIssueDate string
+    INOUT Settlement string,
+    INOUT MaturityDate string,
+    INOUT Rate string,
+    INOUT Yld string,
+    INOUT Redemption string,
+    INOUT Freq string,
+    INOUT YearDaysBasis string,
+    INOUT Price string,
+    INOUT Rounding string,
+    INOUT AccrStDate string,
+    INOUT YIssueDate string
 )
 {
     jBC:REDO.SC.CALCULATE.PRICE
