@@ -1,7 +1,7 @@
-* @ValidationCode : Mjo1Mzc2NTYyOTU6Q3AxMjUyOjE2ODEyMTU5MTg3Njc6OTE2Mzg6LTE6LTE6MDowOmZhbHNlOk4vQTpSMjFfQU1SLjA6LTE6LTE=
-* @ValidationInfo : Timestamp         : 11 Apr 2023 17:55:18
+* @ValidationCode : MjotNzY0MTA2NjI2OkNwMTI1MjoxNjgxOTExODY4NDI2OklUU1MxOi0xOi0xOjA6MDpmYWxzZTpOL0E6UjIxX0FNUi4wOi0xOi0x
+* @ValidationInfo : Timestamp         : 19 Apr 2023 19:14:28
 * @ValidationInfo : Encoding          : Cp1252
-* @ValidationInfo : User Name         : 91638
+* @ValidationInfo : User Name         : ITSS1
 * @ValidationInfo : Nb tests success  : N/A
 * @ValidationInfo : Nb tests failure  : N/A
 * @ValidationInfo : Rating            : N/A
@@ -88,7 +88,7 @@ PROCESS:
         END
     END
 
-    CALL REDO.V.INP.TT.AC.VAL
+    CALL APAP.REDOVER.REDO.V.INP.TT.AC.VAL
 
 RETURN
 *
