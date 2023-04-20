@@ -1,14 +1,14 @@
-* @ValidationCode : MjoxMzYxMjI0ODAwOkNwMTI1MjoxNjgxMTM1MTY1OTE5OklUU1M6LTE6LTE6MzU1OjE6ZmFsc2U6Ti9BOkRFVl8yMDIxMDguMDotMTotMQ==
-* @ValidationInfo : Timestamp         : 10 Apr 2023 19:29:25
+* @ValidationCode : MjotMjg2NTk3MzQ4OkNwMTI1MjoxNjgxOTc1MTkxNTI2OklUU1M6LTE6LTE6MzUzOjE6ZmFsc2U6Ti9BOlIyMV9BTVIuMDotMTotMQ==
+* @ValidationInfo : Timestamp         : 20 Apr 2023 12:49:51
 * @ValidationInfo : Encoding          : Cp1252
 * @ValidationInfo : User Name         : ITSS
 * @ValidationInfo : Nb tests success  : N/A
 * @ValidationInfo : Nb tests failure  : N/A
-* @ValidationInfo : Rating            : 355
+* @ValidationInfo : Rating            : 353
 * @ValidationInfo : Coverage          : N/A
 * @ValidationInfo : Strict flag       : true
 * @ValidationInfo : Bypass GateKeeper : false
-* @ValidationInfo : Compiler Version  : DEV_202108.0
+* @ValidationInfo : Compiler Version  : R21_AMR.0
 * @ValidationInfo : Copyright Temenos Headquarters SA 1993-2021. All rights reserved.
 $PACKAGE APAP.REDOFCFI
 *-----------------------------------------------------------------------------
@@ -19,7 +19,7 @@ SUBROUTINE REDO.FI.ORANGE.PAYMENTS.POST
 * Modification History:
 * Date                 Who                              Reference                            DESCRIPTION
 *04-04-2023           CONVERSION TOOL                AUTO R22 CODE CONVERSION                 NO CHANGES
-*04-04-2023          jayasurya H                       MANUAL R22 CODE CONVERSION            "" ADDED IN LAST FMT ARGUMENT
+*04-04-2023          jayasurya H                       MANUAL R22 CODE CONVERSION            "" ADDED IN LAST FMT ARGUMENT, CALL method format changed
 ******************************************************************
 *
     $INSERT I_COMMON
@@ -172,11 +172,11 @@ PROCESS.MAIL:
 *
     Y.PATH.TO.MOVE             = Y.PATH.SUCCESS
 
-    CALL TAM.EMAIL.SEND.R(R.EMAIL, Y.ERROR)
+    CALL APAP.TAM.TAM.EMAIL.SEND.R(R.EMAIL, Y.ERROR);* R22 Manual Conversion - CALL method format changed
 
     IF Y.ERROR THEN
         FOR Y.NUM.INTENTOS = 1 TO Y.INTENTOS
-            CALL TAM.EMAIL.SEND.R(R.EMAIL, Y.ERROR)
+            CALL APAP.TAM.TAM.EMAIL.SEND.R(R.EMAIL, Y.ERROR);* R22 Manual Conversion - CALL method format changed
             IF Y.ERROR THEN
                 W.ERROR        = Y.ERROR
                 Y.PATH.TO.MOVE = Y.PATH.FAILURE
