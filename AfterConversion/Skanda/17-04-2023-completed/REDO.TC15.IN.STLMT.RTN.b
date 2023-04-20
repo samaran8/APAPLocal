@@ -1,3 +1,15 @@
+* @ValidationCode : MjotMTQxNzk0MTUzOTpDcDEyNTI6MTY4MjAwNzQ4MjYyOTpJVFNTMTotMTotMTowOjA6ZmFsc2U6Ti9BOlIyMV9BTVIuMDotMTotMQ==
+* @ValidationInfo : Timestamp         : 20 Apr 2023 21:48:02
+* @ValidationInfo : Encoding          : Cp1252
+* @ValidationInfo : User Name         : ITSS1
+* @ValidationInfo : Nb tests success  : N/A
+* @ValidationInfo : Nb tests failure  : N/A
+* @ValidationInfo : Rating            : N/A
+* @ValidationInfo : Coverage          : N/A
+* @ValidationInfo : Strict flag       : N/A
+* @ValidationInfo : Bypass GateKeeper : false
+* @ValidationInfo : Compiler Version  : R21_AMR.0
+* @ValidationInfo : Copyright Temenos Headquarters SA 1993-2021. All rights reserved.
 $PACKAGE APAP.TAM
 SUBROUTINE REDO.TC15.IN.STLMT.RTN(STLMT.LINES)
 *--------------------------------------------
@@ -77,7 +89,7 @@ PROCESS:
     ID.NEW.LAST=IDNEW.LAST
     Y.STL.ID= COMI
     R.REDO.STLMT.LINE<VISA.SETTLE.FILE.DATE>=Y.FILE.DATE
-    CALL REDO.VISA.SETTLE.WRITE(Y.STL.ID,R.REDO.STLMT.LINE)
+    CALL APAP.TAM.REDO.VISA.SETTLE.WRITE(Y.STL.ID,R.REDO.STLMT.LINE)
     IF R.REDO.STLMT.LINE<VISA.SETTLE.STATUS> EQ 'PENDING' THEN
         R.ATM.REVERSAL<AT.REV.VISA.CHGBCK.REF>=Y.STL.ID
         CALL F.WRITE(FN.ATM.REVERSAL,ATM.REV.ID,R.ATM.REVERSAL)
