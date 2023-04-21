@@ -1,12 +1,12 @@
-* @ValidationCode : MjotNjEwNjA2NzM4OkNwMTI1MjoxNjgwNjcxNzU1ODg0OklUU1M6LTE6LTE6MDoxOmZhbHNlOk4vQTpSMjFfQU1SLjA6LTE6LTE=
-* @ValidationInfo : Timestamp         : 05 Apr 2023 10:45:55
+* @ValidationCode : MjotMTcyMjA3NjkyMDpDcDEyNTI6MTY4MjAwNzg0NTMzNDpJVFNTMTotMTotMTowOjA6ZmFsc2U6Ti9BOlIyMV9BTVIuMDotMTotMQ==
+* @ValidationInfo : Timestamp         : 20 Apr 2023 21:54:05
 * @ValidationInfo : Encoding          : Cp1252
-* @ValidationInfo : User Name         : ITSS
+* @ValidationInfo : User Name         : ITSS1
 * @ValidationInfo : Nb tests success  : N/A
 * @ValidationInfo : Nb tests failure  : N/A
 * @ValidationInfo : Rating            : N/A
 * @ValidationInfo : Coverage          : N/A
-* @ValidationInfo : Strict flag       : true
+* @ValidationInfo : Strict flag       : N/A
 * @ValidationInfo : Bypass GateKeeper : false
 * @ValidationInfo : Compiler Version  : R21_AMR.0
 * @ValidationInfo : Copyright Temenos Headquarters SA 1993-2021. All rights reserved.
@@ -73,7 +73,7 @@ PROCESS:
 
 * Delete Log from process for the customer
 
-    CALL S.REDO.CCRG.RL.DEL.LOG(R.NEW(REDO.CCRG.CUS.CUSTOMER.ID))
+    CALL APAP.TAM.S.REDO.CCRG.RL.DEL.LOG(R.NEW(REDO.CCRG.CUS.CUSTOMER.ID))
 
 * Register Consulted Customer of REDO.CCRG.CUSTOMER application in REDO.CCRG.EVA.QUEUE
 
@@ -189,7 +189,7 @@ CHECK.PRELIM.CONDITIONS:
 * Get effective date for the consulted customer in routine S.REDO.CCRG.CALC.END.DATE by parameters
 
             Y.EFFECTIVE.DATE = ''
-            CALL S.REDO.CCRG.CALC.END.DATE(Y.EFFECTIVE.DATE,Y.START.DATE)
+            CALL APAP.TAM.S.REDO.CCRG.CALC.END.DATE(Y.EFFECTIVE.DATE,Y.START.DATE)
 
 * Validate date and time of Y.EFFECTIVE.DATE
 

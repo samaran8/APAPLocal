@@ -1,3 +1,15 @@
+* @ValidationCode : MjotODIyMTE1MjE4OkNwMTI1MjoxNjgyMDA3NjM1OTI2OklUU1MxOi0xOi0xOjA6MDpmYWxzZTpOL0E6UjIxX0FNUi4wOi0xOi0x
+* @ValidationInfo : Timestamp         : 20 Apr 2023 21:50:35
+* @ValidationInfo : Encoding          : Cp1252
+* @ValidationInfo : User Name         : ITSS1
+* @ValidationInfo : Nb tests success  : N/A
+* @ValidationInfo : Nb tests failure  : N/A
+* @ValidationInfo : Rating            : N/A
+* @ValidationInfo : Coverage          : N/A
+* @ValidationInfo : Strict flag       : N/A
+* @ValidationInfo : Bypass GateKeeper : false
+* @ValidationInfo : Compiler Version  : R21_AMR.0
+* @ValidationInfo : Copyright Temenos Headquarters SA 1993-2021. All rights reserved.
 $PACKAGE APAP.TAM
 SUBROUTINE REDO.R.BCR.REP.COPY.PARAM(redoIntParamID)
 *-----------------------------------------------------------------------------
@@ -34,14 +46,14 @@ PROCESS:
     WHILE fieldName : yPos
         fieldValue = ""
         fieldNoFrom    = 0
-        CALL TAM.R.FIELD.NAME.TO.NUMBER("REDO.INTERFACE.PARAM", fieldName, fieldNoFrom)
+        CALL APAP.TAM.TAM.R.FIELD.NAME.TO.NUMBER("REDO.INTERFACE.PARAM", fieldName, fieldNoFrom)
         IF fieldNoFrom EQ 0 THEN
             E    = "ST-REDO.BCR.FIELD.NON.EXIST"
             E<2> = fieldName : @VM : "REDO.INTERFACE.PARAM"
             RETURN
         END
         fieldNoTo = 0
-        CALL TAM.R.FIELD.NAME.TO.NUMBER(APPLICATION, fieldName, fieldNoTo)
+        CALL APAP.TAM.TAM.R.FIELD.NAME.TO.NUMBER(APPLICATION, fieldName, fieldNoTo)
         IF fieldNoTo EQ 0 THEN
             E    = "ST-REDO.BCR.FIELD.NON.EXIST"
             E<2> = fieldNoTo : @VM : APPLICATION
