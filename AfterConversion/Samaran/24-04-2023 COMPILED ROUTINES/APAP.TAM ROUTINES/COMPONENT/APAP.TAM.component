@@ -1,0 +1,86 @@
+component APAP.TAM
+# Component Isolation Definition
+metamodelVersion 1.6
+# -------------------------------------------------
+
+
+public method pacsCorrAaa (
+)
+{
+    jBC: PACS.CORR.AAA
+}
+
+
+
+public method pacsEbCorrEntryHold (
+)
+{
+    jBC: PACS.EB.CORR.ENTRY.HOLD
+}
+
+
+
+public method pacsFtDelete (
+)
+{
+    jBC: PACS.FT.DELETE
+}
+
+
+
+public method redoAaBillDetails (
+)
+{
+    jBC: REDO.AA.BILL.DETAILS
+}
+
+
+
+public method redoAaChargeParam (
+)
+{
+    jBC: REDO.AA.CHARGE.PARAM
+}
+
+
+
+public method redoAaDdCategory (
+)
+{
+    jBC: REDO.AA.DD.CATEGORY
+}
+
+
+
+public method redoAaDisbLoan (
+)
+{
+    jBC: REDO.AA.DISB.LOAN
+}
+
+
+
+public method redoAaGetOutBalance (
+    INOUT aaId string,
+    INOUT yBalance string
+)
+{
+    jBC: REDO.AA.GET.OUT.BALANCE
+}
+
+
+
+public method redoAaRepay (
+)
+{
+    jBC: REDO.AA.REPAY
+}
+
+
+
+public method redoApapAuthChqSlip (
+)
+{
+    jBC: REDO.APAP.AUTH.CHQ.SLIP
+}
+
