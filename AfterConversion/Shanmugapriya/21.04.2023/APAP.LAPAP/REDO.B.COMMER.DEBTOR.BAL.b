@@ -1,5 +1,5 @@
-* @ValidationCode : MjoxMjk0Mzk1ODY5OkNwMTI1MjoxNjgyMDY4MjY5Mzc1OklUU1M6LTE6LTE6MDowOmZhbHNlOk4vQTpSMjFfQU1SLjA6LTE6LTE=
-* @ValidationInfo : Timestamp         : 21 Apr 2023 14:41:09
+* @ValidationCode : Mjo2NTE2Mjk0NDM6Q3AxMjUyOjE2ODIzMTk5MjgyMDg6SVRTUzotMTotMTowOjA6ZmFsc2U6Ti9BOlIyMV9BTVIuMDotMTotMQ==
+* @ValidationInfo : Timestamp         : 24 Apr 2023 12:35:28
 * @ValidationInfo : Encoding          : Cp1252
 * @ValidationInfo : User Name         : ITSS
 * @ValidationInfo : Nb tests success  : N/A
@@ -46,7 +46,7 @@ SUBROUTINE REDO.B.COMMER.DEBTOR.BAL(Y.AA.CUS.ID)
 *
 * Date             Who                   Reference      Description
 * 21.04.2023       Conversion Tool       R22            Auto Conversion     - INSERT file folder name removed T24.BP, TAM.BP, LAPAP.BP, VM TO @VM, = Y.STA.COUNT + TO +=, = CTR.BAL.TYPE + TO +=, = Y.FIN.ECB.AMT.COM + TO +=, = Y.FIN.ECB.AMT.CONS + TO +=, = Y.FIN.ECB.AMT.HIP + TO +=, SM TO @SM, FM TO @FM, ++ TO += 1
-* 21.04.2023       Shanmugapriya M       R22            Manual Conversion   - No changes
+* 21.04.2023       Shanmugapriya M       R22            Manual Conversion   - Add call routine prefix
 *
 *--------------------------------------------------------------------------------------------------
 * Include files
@@ -232,7 +232,9 @@ CHK.CUS.DTLS:
     IF NOT(R.CUSTOMER) THEN
         RETURN
     END
-    CALL REDO.S.REG.CUSTOMER.EXTRACT(Y.AA.CUS.ID,Y.PRODUCT.GROUP,Y.REL.CODE,OUT.ARR)
+*CALL REDO.S.REG.CUSTOMER.EXTRACT(Y.AA.CUS.ID,Y.PRODUCT.GROUP,Y.REL.CODE,OUT.ARR)
+** R22 Manual conversion
+    CALL APAP.LAPAP.REDO.S.REG.CUSTOMER.EXTRACT(Y.AA.CUS.ID,Y.PRODUCT.GROUP,Y.REL.CODE,OUT.ARR)
     Y.CUST.IDEN    = OUT.ARR<1>
     Y.CUST.TYPE    = OUT.ARR<2>
     Y.CUST.NAME    = OUT.ARR<3>
