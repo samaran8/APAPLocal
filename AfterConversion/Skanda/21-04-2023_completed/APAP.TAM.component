@@ -277,7 +277,9 @@ public method RedoChangeTxPy (
 
 
 public method RedoCheckInterestAmtNcf (
-    INOUT AccId txnRef yAmtRet string
+    INOUT AccId string,
+    INOUT txnRef string,
+    INOUT yAmtRet string
 )
 {
     jBC:REDO.CHECK.INTEREST.AMT.NCF
@@ -286,7 +288,9 @@ public method RedoCheckInterestAmtNcf (
 
 
 public method RedoCheckMarginIds (
-    INOUT YAaIdsList yRateChangeId yReturnIds string
+    INOUT YAaIdsList string,
+    INOUT yRateChangeId string,
+    INOUT yReturnIds string
 )
 {
     jBC:REDO.CHECK.MARGIN.IDS
@@ -352,7 +356,8 @@ public method RedoColDelivery (
 
 
 public method RedoColGetRiskDi (
-    INOUT YAaProdCur yRiskPerc string
+    INOUT YAaProdCur string,
+    INOUT yRiskPerc string
 )
 {
     jBC:REDO.COL.GET.RISK.DI
@@ -397,3 +402,4 @@ public method RedoCreArrAuthGetLimColl (
 {
     jBC:REDO.CRE.ARR.AUTH.GET.LIM.COLL
 }
+
