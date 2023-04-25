@@ -344,3 +344,276 @@ public method redoUpdateOutwardReturnChq (
     jBC: REDO.UPDATE.OUTWARD.RETURN.CHQ
 }
 
+
+
+public method redoVMmAuthUpdNcf (
+)
+{
+    jBC: REDO.V.MM.AUTH.UPD.NCF
+}
+
+
+
+public method redoVPaidCheque (
+)
+{
+    jBC: REDO.V.PAID.CHEQUE
+}
+
+
+
+public method redoVPerIfDelay (
+)
+{
+    jBC: REDO.V.PER.IF.DELAY
+}
+
+
+
+public method redoVProgSedate2 (
+)
+{
+    jBC: REDO.V.PROG.SEDATE2
+}
+
+
+
+public method redoVValAvColBal (
+)
+{
+    jBC: REDO.V.VAL.AV.COL.BAL
+}
+
+
+
+public method redoVValAzReinvFreq (
+)
+{
+    jBC: REDO.V.VAL.AZ.REINV.FREQ
+}
+
+
+
+public method redoVValBenCard (
+)
+{
+    jBC: REDO.V.VAL.BEN.CARD
+}
+
+
+
+public method redoVValCedIdent (
+)
+{
+    jBC: REDO.V.VAL.CED.IDENT
+}
+
+
+
+public method redoVValCheckAdminType (
+)
+{
+    jBC: REDO.V.VAL.CHECK.ADMIN.TYPE
+}
+
+
+
+public method redoVValInsPolicies (
+)
+{
+    jBC: REDO.V.VAL.INS.POLICIES
+}
+
+
+
+public method redoVValIssReqPrdtType (
+)
+{
+    jBC: REDO.V.VAL.ISS.REQ.PRDT.TYPE
+}
+
+
+
+public method redoVValLoanAccount (
+)
+{
+    jBC: REDO.V.VAL.LOAN.ACCOUNT
+}
+
+
+
+public method redoVValLocTtProcess (
+)
+{
+    jBC: REDO.V.VAL.LOC.TT.PROCESS
+}
+
+
+
+public method redoVValPaymentInitial (
+)
+{
+    jBC: REDO.V.VAL.PAYMENT.INITIAL
+}
+
+
+
+public method redoVValPayrollFile (
+)
+{
+    jBC: REDO.V.VAL.PAYROLL.FILE
+}
+
+
+
+public method redoVValRateChange (
+)
+{
+    jBC: REDO.V.VAL.RATE.CHANGE
+}
+
+
+
+public method redoVValReaCollateral (
+)
+{
+    jBC: REDO.V.VAL.REA.COLLATERAL
+}
+
+
+
+public method redoVValRevForm (
+)
+{
+    jBC: REDO.V.VAL.REV.FORM
+}
+
+
+
+public method redoVValRnc (
+)
+{
+    jBC: REDO.V.VAL.RNC
+}
+
+
+
+public method redoVValWvCommTax (
+)
+{
+    jBC: REDO.V.VAL.WV.COMM.TAX
+}
+
+
+
+public method removeAcctStmt (
+)
+{
+    jBC: REMOVE.ACCT.STMT
+}
+
+
+
+public method tamRGetValueByFieldName (
+    INOUT tableName string,
+    INOUT fieldName string,
+    INOUT recSource string *,
+    INOUT fieldValue string,
+    INOUT fieldNo string
+)
+{
+    jBC: TAM.R.GET.VALUE.BY.FIELD.NAME
+}
+
+
+
+public method tamUpdateIpAddressArcib (
+    INOUT sampleId string,
+    INOUT sampleResponse string,
+    INOUT responseType string,
+    INOUT styleSheet string
+)
+{
+    jBC: TAM.UPDATE.IP.ADDRESS.ARCIB
+}
+
+
+
+public method testcallj (
+)
+{
+    jBC: TESTCALLJ
+}
+
+
+
+public method redoVValCollVerify (
+)
+{
+    jBC: REDO.V.VAL.COLL.VERIFY
+}
+
+
+
+public method redoVValCollateralDef (
+)
+{
+    jBC: REDO.V.VAL.COLLATERAL.DEF
+}
+
+
+
+public method redoVValDebAcOurRef (
+)
+{
+    jBC: REDO.V.VAL.DEB.AC.OUR.REF
+}
+
+
+
+public method redoVValDebAccSavCur (
+)
+{
+    jBC: REDO.V.VAL.DEB.ACC.SAV.CUR
+}
+
+
+
+public method redoVValDefBeneficairy (
+)
+{
+    jBC: REDO.V.VAL.DEF.BENEFICAIRY
+}
+
+
+
+public method redoVValInputtedAmto (
+)
+{
+    jBC: REDO.V.VAL.INPUTTED.AMTO
+}
+
+
+
+public method redoVValInsDueAmt (
+)
+{
+    jBC: REDO.V.VAL.INS.DUE.AMT
+}
+
+
+
+public method redoVValDateVh (
+)
+{
+    jBC: REDO.V.VAL.DATE.VH
+}
+
+
+
+public method redoVValWaiveTax (
+)
+{
+    jBC: REDO.V.VAL.WAIVE.TAX
+}
+
