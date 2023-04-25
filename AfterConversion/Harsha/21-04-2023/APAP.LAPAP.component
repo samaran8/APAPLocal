@@ -81,7 +81,8 @@ public method LApapGetMotivoRechazoAchRt (
 
 
 public method LApapGetOutstandingBalance (
-    INOUT Account OutstandingBalance string
+    INOUT Account string,
+    INOUT OutstandingBalance string
 )
 {
     jBC:L.APAP.GET.OUTSTANDING.BALANCE
@@ -140,7 +141,13 @@ public method LApapIdentAch (
 
 
 public method LApapInpOfusTd (
-    INOUT YOfsTransactionId YDynMappingIn YDynRequestOfsKey YDynRequestValue YDynRequestOfsType YAddnlInfo YError string
+    INOUT YOfsTransactionId string,
+    INOUT YDynMappingIn string,
+    INOUT YDynRequestOfsKey string,
+    INOUT YDynRequestValue string,
+    INOUT YDynRequestOfsType string,
+    INOUT YAddnlInfo string,
+    INOUT YError string
 )
 {
     jBC:L.APAP.INP.OFUS.TD
@@ -149,7 +156,9 @@ public method LApapInpOfusTd (
 
 
 public method LApapIntRateAcc (
-    INOUT YAccId RAccount YCrIntRate string
+    INOUT YAccId string,
+    INOUT RAccount string,
+    INOUT YCrIntRate string
 )
 {
     jBC:L.APAP.INT.RATE.ACC
@@ -174,7 +183,9 @@ public method LApapIvrVValidaCuenta (
 
 
 public method LApapJavaRabitEchox (
-    INOUT YData yReturn yError string
+    INOUT YData string,
+    INOUT yReturn string,
+    INOUT yError string
 )
 {
     jBC:L.APAP.JAVA.RABIT.ECHOX
@@ -183,7 +194,10 @@ public method LApapJavaRabitEchox (
 
 
 public method LApapJavaRabitSend (
-    INOUT YData yReturn yRabbit yError string
+    INOUT YData string,
+    INOUT yReturn string,
+    INOUT yRabbit string,
+    INOUT yError string
 )
 {
     jBC:L.APAP.JAVA.RABIT.SEND
@@ -192,7 +206,8 @@ public method LApapJavaRabitSend (
 
 
 public method LApapJsonError (
-    INOUT YError JsonOutput string
+    INOUT YError string,
+    INOUT JsonOutput string
 )
 {
     jBC:L.APAP.JSON.ERROR
@@ -201,7 +216,10 @@ public method LApapJsonError (
 
 
 public method LApapJsonParse (
-    INOUT JsonItem DataItem YUnrollArray YError string
+    INOUT JsonItem string,
+    INOUT DataItem string,
+    INOUT YUnrollArray string,
+    INOUT YError string
 )
 {
     jBC:L.APAP.JSON.PARSE
@@ -210,7 +228,12 @@ public method LApapJsonParse (
 
 
 public method LApapJsonRtnRunner (
-    INOUT YObjectName JsonRequest YDynResponseKey YDynResponseValue YDynResponseType YError string
+    INOUT YObjectName string,
+    INOUT JsonRequest string,
+    INOUT YDynResponseKey string,
+    INOUT YDynResponseValue string,
+    INOUT YDynResponseType string,
+    INOUT YError string
 )
 {
     jBC:L.APAP.JSON.RTN.RUNNER
@@ -219,7 +242,8 @@ public method LApapJsonRtnRunner (
 
 
 public method LApapJsonStringify (
-    INOUT JsonIn JsonOut string
+    INOUT JsonIn string,
+    INOUT JsonOut string
 )
 {
     jBC:L.APAP.JSON.STRINGIFY
@@ -228,7 +252,11 @@ public method LApapJsonStringify (
 
 
 public method LApapJsonToDyn (
-    INOUT JsonRequest YDynRequestKey YDynRequestValue YDynRequestType YError string
+    INOUT JsonRequest string,
+    INOUT YDynRequestKey string,
+    INOUT YDynRequestValue string,
+    INOUT YDynRequestType string,
+    INOUT YError string
 )
 {
     jBC:L.APAP.JSON.TO.DYN
@@ -286,7 +314,9 @@ public method LApapMAaNabSettCloseWof (
 
 
 public method LApapMaskDynOut (
-    INOUT YResponseValue YFieldMaskOut YError string
+    INOUT YResponseValue string,
+    INOUT YFieldMaskOut string,
+    INOUT YError string
 )
 {
     jBC:L.APAP.MASK.DYN.OUT
@@ -403,7 +433,11 @@ public method LApapNofileLetterIssueRt (
 
 
 public method LApapOfsToDyn (
-    INOUT YOfsOutResponse YObjectType YDynResponseKey YDynResponseValue YError string
+    INOUT YOfsOutResponse string,
+    INOUT YObjectType string,
+    INOUT YDynResponseKey string,
+    INOUT YDynResponseValue string,
+    INOUT YError string
 )
 {
     jBC:L.APAP.OFS.TO.DYN
@@ -454,7 +488,12 @@ public method LApapProcessRabbitJsonReqOfs (
 
 
 public method LApapRabbitPreRoutine (
-    INOUT YDynMappingIn YDynRequestOfsKey YDynRequestValue YDynRequestOfsType YAddnlInfo YError string
+    INOUT YDynMappingIn string,
+    INOUT YDynRequestOfsKey string,
+    INOUT YDynRequestValue string,
+    INOUT YDynRequestOfsType string,
+    INOUT YAddnlInfo string,
+    INOUT YError string
 )
 {
     jBC:L.APAP.RABBIT.PRE.ROUTINE
@@ -529,7 +568,8 @@ public method LApapRet10PrcRt (
 
 
 public method LApapReturnBanlaceCancelacion (
-    INOUT AaId outRecord string
+    INOUT AaId string,
+    INOUT outRecord string
 )
 {
     jBC:L.APAP.RETURN.BANLACE.CANCELACION
@@ -538,7 +578,8 @@ public method LApapReturnBanlaceCancelacion (
 
 
 public method LApapReturnFieldPoliza (
-    INOUT PoliNun outRecord string
+    INOUT PoliNun string,
+    INOUT outRecord string
 )
 {
     jBC:L.APAP.RETURN.FIELD.POLIZA
@@ -604,7 +645,8 @@ public method LApapSendReceiptEmail (
 
 
 public method LApapSmToJsonArray (
-    INOUT SmInFields JsonArrayOut string
+    INOUT SmInFields string,
+    INOUT JsonArrayOut string
 )
 {
     jBC:L.APAP.SM.TO.JSON.ARRAY
