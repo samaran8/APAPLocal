@@ -1,5 +1,5 @@
-* @ValidationCode : Mjo5NDM3NDMyMDg6Q3AxMjUyOjE2ODI0MDc2ODcwNjA6SVRTUzE6LTE6LTE6MDowOmZhbHNlOk4vQTpSMjFfQU1SLjA6LTE6LTE=
-* @ValidationInfo : Timestamp         : 25 Apr 2023 12:58:07
+* @ValidationCode : MjoxMzk4Mjg5MjgwOkNwMTI1MjoxNjgyNTAyMDcwMDc0OklUU1MxOi0xOi0xOjA6MDpmYWxzZTpOL0E6UjIxX0FNUi4wOi0xOi0x
+* @ValidationInfo : Timestamp         : 26 Apr 2023 15:11:10
 * @ValidationInfo : Encoding          : Cp1252
 * @ValidationInfo : User Name         : ITSS1
 * @ValidationInfo : Nb tests success  : N/A
@@ -57,7 +57,7 @@ SUBROUTINE L.APAP.AA.ACC.MOVE.RFN
 ***Executar la rutina de limpie de balance en EB.CONTRACT.BALANCE
 ***---------------
     CALL APAP.LAPAP.LAPAP.CLEAR.ECB.BALANCES.R15(AA.ID,Y.CUENTA.INTERNA)
-    CALL LAPAP.FORM.POST.RESTR.ACTIVITY(AA.ID)
+    CALL APAP.LAPAP.LAPAP.FORM.POST.RESTR.ACTIVITY(AA.ID)
 RETURN
 
 END
