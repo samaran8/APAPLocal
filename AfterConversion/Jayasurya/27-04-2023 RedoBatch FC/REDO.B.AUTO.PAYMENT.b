@@ -1,14 +1,15 @@
-* @ValidationCode : MjotNTI2OTQ3OTQxOkNwMTI1MjoxNjgyNTExMDY3MTE1OklUU1NCTkc6LTE6LTE6MDowOmZhbHNlOk4vQTpERVZfMjAyMTA4LjA6LTE6LTE=
-* @ValidationInfo : Timestamp         : 26 Apr 2023 17:41:07
+* @ValidationCode : MjotOTg3MjEwNzAyOkNwMTI1MjoxNjgyNjg4MzM4NDM2OklUU1M6LTE6LTE6MDowOmZhbHNlOk4vQTpSMjFfQU1SLjA6LTE6LTE=
+* @ValidationInfo : Timestamp         : 28 Apr 2023 18:55:38
 * @ValidationInfo : Encoding          : Cp1252
-* @ValidationInfo : User Name         : ITSSBNG
+* @ValidationInfo : User Name         : ITSS
 * @ValidationInfo : Nb tests success  : N/A
 * @ValidationInfo : Nb tests failure  : N/A
 * @ValidationInfo : Rating            : N/A
 * @ValidationInfo : Coverage          : N/A
 * @ValidationInfo : Strict flag       : N/A
 * @ValidationInfo : Bypass GateKeeper : false
-* @ValidationInfo : Compiler Version  : DEV_202108.0
+* @ValidationInfo : Compiler Version  : R21_AMR.0
+* @ValidationInfo : Copyright Temenos Headquarters SA 1993-2021. All rights reserved.
 $PACKAGE APAP.REDOBATCH
 SUBROUTINE REDO.B.AUTO.PAYMENT(Y.DD.ACCOUNT)
 *------------------------------------------------------------------
@@ -270,7 +271,9 @@ POST.OFS:
     CALL OFS.BUILD.RECORD(APP.NAME,OFSFUNCT,PROCESS,OFSVERSION,VAR.GTSMODE,NO.OF.AUTH,FT.ID,R.FUNDS.TRANSFER,OFSRECORD)
     CALL OCOMO("PRINITNG OFSRECORD REQUEST - ":OFSRECORD)
 *TSR-137108
-    CALL OFS.GLOBUS.MANAGER(OFS.SOURCE.ID, OFSRECORD)
+    OFS.RESP   = ""; TXN.COMMIT = "" ;* R22 Manual conversion - Start
+*CALL OFS.GLOBUS.MANAGER(OFS.SOURCE.ID, OFSRECORD)
+    CALL OFS.CALL.BULK.MANAGER(OFS.SOURCE.ID, OFSRECORD, OFS.RESP, TXN.COMMIT) ;* R22 Manual conversion - End
     CALL OCOMO("PRINITNG OFSRECORD RESPONSE - ":OFSRECORD)
     OFS.RESPONSE = ''; REP.FLAG = ''
     OFS.RESPONSE = FIELD(OFSRECORD,',',1)
