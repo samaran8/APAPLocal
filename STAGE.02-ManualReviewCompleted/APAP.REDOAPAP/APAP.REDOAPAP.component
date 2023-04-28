@@ -125,15 +125,6 @@ public method redoApapAutCphModify (
 }
 
 
-
-public method redoApapAutUpdMortgageDet (
-)
-{
-    jBC: REDO.APAP.AUT.UPD.MORTGAGE.DET
-}
-
-
-
 public method redoApapAuthReprintSlip (
 )
 {
