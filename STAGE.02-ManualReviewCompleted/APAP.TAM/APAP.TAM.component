@@ -9109,3 +9109,37 @@ public method versionExtFields (
 }
 
 
+public method redoMassiveFileProcess (
+    INOUT yRecord string
+)
+{
+    jBC: REDO.MASSIVE.FILE.PROCESS
+}
+
+public method redoVcrChequeNumber (
+)
+{
+    jBC: REDO.VCR.CHEQUE.NUMBER
+}
+
+
+public method redoGetReportLoanPayamt (
+    INOUT yAaId string,
+    INOUT yRepayAmt string,
+    INOUT yDummyVar1 string,
+    INOUT yDummyVar2 string
+)
+{
+    jBC: REDO.GET.REPORT.LOAN.PAYAMT
+}
+
+public method redoGetInterestProperty (
+    INOUT arrId string,
+    INOUT propName string,
+    INOUT outProp string,
+    INOUT err string
+)
+{
+    jBC: REDO.GET.INTEREST.PROPERTY
+}
+
