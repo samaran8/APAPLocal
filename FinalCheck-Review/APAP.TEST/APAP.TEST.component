@@ -46,3 +46,16 @@ public method redoTestInvUpd (
 }
 
 
+public method checkConsolKey (
+)
+{
+    jBC: CHECK.CONSOL.KEY
+}
+
+public method eStmtEnqByConcatFer (
+    INOUT yIdList string
+)
+{
+    jBC: E.STMT.ENQ.BY.CONCAT.FER
+}
+
