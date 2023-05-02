@@ -4,6 +4,7 @@ metamodelVersion 1.6
 # -------------------------------------------------
 
 
+
 public method redoAutCcyPosnUpdNew (
 )
 {
@@ -26,211 +27,6 @@ public method redoAutDelIdTemp (
     jBC: REDO.AUT.DEL.ID.TEMP
 }
 
-
-
-public method redoAutExpLimitClsLn (
-)
-{
-    jBC: REDO.AUT.EXP.LIMIT.CLS.LN
-}
-
-public method redoAthStlmtAcctInRtn (
-)
-{
-    jBC: REDO.ATH.STLMT.ACCT.IN.RTN
-}
-
-
-
-public method redoAutAccountClose (
-)
-{
-    jBC: REDO.AUT.ACCOUNT.CLOSE
-}
-
-
-
-public method redoAutActivationTime (
-)
-{
-    jBC: REDO.AUT.ACTIVATION.TIME
-}
-
-
-
-public method redoAutGetTempIdB34Cs (
-)
-{
-    jBC: REDO.AUT.GET.TEMP.ID.B34.CS
-}
-
-
-
-public method redoAutInpVersionName (
-)
-{
-    jBC: REDO.AUT.INP.VERSION.NAME
-}
-
-
-
-public method redoAutInpVersionNameFields (
-)
-{
-    jBC: REDO.AUT.INP.VERSION.NAME.FIELDS
-}
-
-
-
-public method redoAutLatamCardUpt (
-)
-{
-    jBC: REDO.AUT.LATAM.CARD.UPT
-}
-
-
-
-public method redoAutLatamRenewUpd (
-)
-{
-    jBC: REDO.AUT.LATAM.RENEW.UPD
-}
-
-
-
-public method redoAutLockChq (
-)
-{
-    jBC: REDO.AUT.LOCK.CHQ
-}
-
-
-
-public method redoAutRemoveLock (
-)
-{
-    jBC: REDO.AUT.REMOVE.LOCK
-}
-
-
-
-public method redoAutRevFtId (
-)
-{
-    jBC: REDO.AUT.REV.FT.ID
-}
-
-
-
-public method redoAutRevNxtDayFtId (
-)
-{
-    jBC: REDO.AUT.REV.NXT.DAY.FT.ID
-}
-
-
-
-public method redoAutRvkPayStatus (
-)
-{
-    jBC: REDO.AUT.RVK.PAY.STATUS
-}
-
-
-
-public method redoAutSetAccClose (
-)
-{
-    jBC: REDO.AUT.SET.ACC.CLOSE
-}
-
-
-
-public method redoAutSettleChgAdv (
-)
-{
-    jBC: REDO.AUT.SETTLE.CHG.ADV
-}
-
-
-
-public method redoAutUpAzTransRef (
-)
-{
-    jBC: REDO.AUT.UP.AZ.TRANS.REF
-}
-
-
-
-public method redoAutUpdAdmMgrTables (
-)
-{
-    jBC: REDO.AUT.UPD.ADM.MGR.TABLES
-}
-
-
-
-public method redoAutUpdClearOut (
-)
-{
-    jBC: REDO.AUT.UPD.CLEAR.OUT
-}
-
-
-
-public method redoAutUpdLockId (
-)
-{
-    jBC: REDO.AUT.UPD.LOCK.ID
-}
-
-
-
-public method redoAutUpdateStockQty (
-)
-{
-    jBC: REDO.AUT.UPDATE.STOCK.QTY
-}
-
-
-
-public method redoAutUpdatesStatus (
-)
-{
-    jBC: REDO.AUT.UPDATES.STATUS
-}
-
-
-
-public method redoAuthAciUpd (
-)
-{
-    jBC: REDO.AUTH.ACI.UPD
-}
-
-
-
-public method redoAuthActivateDebAcc (
-)
-{
-    jBC: REDO.AUTH.ACTIVATE.DEB.ACC
-}
-
-
-
-public method redoAuthAzAccount (
-)
-{
-    jBC: REDO.AUTH.AZ.ACCOUNT
-}
-
-
-
-public method redoAuthAzDepositPrint (
-)
-{
-    jBC: REDO.AUTH.AZ.DEPOSIT.PRINT
-}
 
 
 
@@ -655,13 +451,6 @@ public method redoInpStopPayStatus (
 
 
 
-public method redoInpWriteOfsUnauthCob (
-)
-{
-    jBC: REDO.INP.WRITE.OFS.UNAUTH.COB
-}
-
-
 
 public method redoVAcUpdNcf (
 )
@@ -855,13 +644,6 @@ public method redoVAutConReq (
     jBC: REDO.V.AUT.CON.REQ
 }
 
-
-
-public method redoVAutCreateSto (
-)
-{
-    jBC: REDO.V.AUT.CREATE.STO
-}
 
 
 
@@ -1105,13 +887,6 @@ public method redoVAuthCertDetails (
     jBC: REDO.V.AUTH.CERT.DETAILS
 }
 
-
-
-public method redoVAuthCollMvmtDets (
-)
-{
-    jBC: REDO.V.AUTH.COLL.MVMT.DETS
-}
 
 
 
@@ -1963,12 +1738,6 @@ public method redoVInpGarnishmentLock (
 
 
 
-public method redoVInpGetPayDate (
-)
-{
-    jBC: REDO.V.INP.GET.PAY.DATE
-}
-
 
 
 public method redoVInpIntRate (
@@ -2324,13 +2093,6 @@ public method redoVOverrideFtWvComtax (
 
 
 
-public method redoVPartPymtRule1Disb (
-)
-{
-    jBC: REDO.V.PART.PYMT.RULE1.DISB
-}
-
-
 
 public method redoVRedoVValMaxTotal (
 )
@@ -2635,13 +2397,6 @@ public method redoVValAttemptAdd (
 
 
 
-public method redoVValBalUpdate (
-)
-{
-    jBC: REDO.V.VAL.BAL.UPDATE
-}
-
-
 
 public method redoVValBenef (
 )
@@ -2688,13 +2443,6 @@ public method redoVValCardAcc (
     jBC: REDO.V.VAL.CARD.ACC
 }
 
-
-
-public method redoVValChargeInitial (
-)
-{
-    jBC: REDO.V.VAL.CHARGE.INITIAL
-}
 
 
 
@@ -2760,13 +2508,6 @@ public method redoVValCollRight (
     jBC: REDO.V.VAL.COLL.RIGHT
 }
 
-
-
-public method redoVValCollateral (
-)
-{
-    jBC: REDO.V.VAL.COLLATERAL
-}
 
 
 
@@ -3505,6 +3246,13 @@ public method redoVVerifyAuth (
     jBC: REDO.V.VERIFY.AUTH
 }
 
+
+component APAP.REDOVER
+# Component Isolation Definition
+metamodelVersion 1.6
+# -------------------------------------------------
+
+
 public method redoAthStlmtAcctInRtn (
 )
 {
@@ -3897,13 +3645,6 @@ public method redoAuthUpdateNvCheques (
 
 
 
-public method redoAuthUsedAmt (
-)
-{
-    jBC: REDO.AUTH.USED.AMT
-}
-
-
 
 public method redoAutoPopMargin (
 )
@@ -4063,6 +3804,8 @@ public method redoInpCheckMoreAmt (
     jBC: REDO.INP.CHECK.MORE.AMT
 }
 
+
+
 public method redoInpCheckStatus (
 )
 {
@@ -4149,6 +3892,9 @@ public method redoInpDsplOvrds (
     jBC: REDO.INP.DSPL.OVRDS
 }
 
+
+
+
 public method redoInpModeParam (
 )
 {
@@ -4162,6 +3908,9 @@ public method redoInpOutwardReturn (
 {
     jBC: REDO.INP.OUTWARD.RETURN
 }
+
+
+
 
 public method redoInpRecallOvrides (
 )
@@ -4184,6 +3933,10 @@ public method redoInpUpdAdmMgrChq (
 {
     jBC: REDO.INP.UPD.ADM.MGR.CHQ
 }
+
+
+
+
 
 public method redoInpUpdStaffAcct (
 )
@@ -4507,6 +4260,8 @@ public method redoVAutMsgUpd (
     jBC: REDO.V.AUT.MSG.UPD
 }
 
+
+
 public method redoVAutRaiseMgrttentry (
 )
 {
@@ -4568,9 +4323,6 @@ public method redoVAutRevTxn (
 {
     jBC: REDO.V.AUT.REV.TXN
 }
-
-
-
 
 
 
@@ -4706,7 +4458,7 @@ public method redoVAuthAccountProcess (
 public method redoVAuthCusIndent (
 )
 {
-   jBC: REDO.V.AUTH.CUS.INDENT
+    jBC: REDO.V.AUTH.CUS.INDENT
 }
 
 
@@ -4714,7 +4466,7 @@ public method redoVAuthCusIndent (
 public method redoVAuthDealPrint (
 )
 {
-   jBC: REDO.V.AUTH.DEAL.PRINT
+    jBC: REDO.V.AUTH.DEAL.PRINT
 }
 
 
@@ -4722,7 +4474,7 @@ public method redoVAuthDealPrint (
 public method redoVAuthDefRef (
 )
 {
-   jBC: REDO.V.AUTH.DEF.REF
+    jBC: REDO.V.AUTH.DEF.REF
 }
 
 
@@ -4730,9 +4482,8 @@ public method redoVAuthDefRef (
 public method redoVAuthDefRefSmb (
 )
 {
-   jBC: REDO.V.AUTH.DEF.REF.SMB
+    jBC: REDO.V.AUTH.DEF.REF.SMB
 }
-
 
 
 
@@ -4741,7 +4492,7 @@ public method redoVAuthDefRefSmb (
 public method redoVAuthFtWvComtax (
 )
 {
-   jBC: REDO.V.AUTH.FT.WV.COMTAX
+    jBC: REDO.V.AUTH.FT.WV.COMTAX
 }
 
 
@@ -4749,7 +4500,7 @@ public method redoVAuthFtWvComtax (
 public method redoVAuthFtWvComtaxVal (
 )
 {
-   jBC: REDO.V.AUTH.FT.WV.COMTAX.VAL
+    jBC: REDO.V.AUTH.FT.WV.COMTAX.VAL
 }
 
 
@@ -4757,7 +4508,7 @@ public method redoVAuthFtWvComtaxVal (
 public method redoVAuthFtWvComtax1 (
 )
 {
-   jBC: REDO.V.AUTH.FT.WV.COMTAX1
+    jBC: REDO.V.AUTH.FT.WV.COMTAX1
 }
 
 
@@ -4765,7 +4516,7 @@ public method redoVAuthFtWvComtax1 (
 public method redoVAuthGarnishDel (
 )
 {
-   jBC: REDO.V.AUTH.GARNISH.DEL
+    jBC: REDO.V.AUTH.GARNISH.DEL
 }
 
 
@@ -4773,7 +4524,7 @@ public method redoVAuthGarnishDel (
 public method redoVAuthGarnishmentMaint (
 )
 {
-   jBC: REDO.V.AUTH.GARNISHMENT.MAINT
+    jBC: REDO.V.AUTH.GARNISHMENT.MAINT
 }
 
 
@@ -4781,7 +4532,7 @@ public method redoVAuthGarnishmentMaint (
 public method redoVAuthProfitLoss (
 )
 {
-   jBC: REDO.V.AUTH.PROFIT.LOSS
+    jBC: REDO.V.AUTH.PROFIT.LOSS
 }
 
 
@@ -4789,7 +4540,7 @@ public method redoVAuthProfitLoss (
 public method redoVAuthReassignment (
 )
 {
-   jBC: REDO.V.AUTH.REASSIGNMENT
+    jBC: REDO.V.AUTH.REASSIGNMENT
 }
 
 
@@ -4797,7 +4548,7 @@ public method redoVAuthReassignment (
 public method redoVAuthReinstate (
 )
 {
-   jBC: REDO.V.AUTH.REINSTATE
+    jBC: REDO.V.AUTH.REINSTATE
 }
 
 
@@ -4805,7 +4556,7 @@ public method redoVAuthReinstate (
 public method redoVAuthRejectCheck (
 )
 {
-   jBC: REDO.V.AUTH.REJECT.CHECK
+    jBC: REDO.V.AUTH.REJECT.CHECK
 }
 
 
@@ -4813,7 +4564,7 @@ public method redoVAuthRejectCheck (
 public method redoVAuthRevCheq (
 )
 {
-   jBC: REDO.V.AUTH.REV.CHEQ
+    jBC: REDO.V.AUTH.REV.CHEQ
 }
 
 
@@ -4821,7 +4572,7 @@ public method redoVAuthRevCheq (
 public method redoVAuthTtChgClg (
 )
 {
-   jBC: REDO.V.AUTH.TT.CHG.CLG
+    jBC: REDO.V.AUTH.TT.CHG.CLG
 }
 
 
@@ -4829,21 +4580,17 @@ public method redoVAuthTtChgClg (
 public method redoVAuthTtTaxEntry (
 )
 {
-   jBC: REDO.V.AUTH.TT.TAX.ENTRY
+    jBC: REDO.V.AUTH.TT.TAX.ENTRY
 }
 
-public method redoVAuthTxnReferImage (
-)
-{
-   jBC: REDO.V.AUTH.TXN.REFER.IMAGE
-}
+
 
 
 
 public method redoVAuthUpdAddress (
 )
 {
-   jBC: REDO.V.AUTH.UPD.ADDRESS
+    jBC: REDO.V.AUTH.UPD.ADDRESS
 }
 
 
@@ -4851,7 +4598,7 @@ public method redoVAuthUpdAddress (
 public method redoVAuthUpdateLogfile (
 )
 {
-   jBC: REDO.V.AUTH.UPDATE.LOGFILE
+    jBC: REDO.V.AUTH.UPDATE.LOGFILE
 }
 
 
@@ -4859,7 +4606,7 @@ public method redoVAuthUpdateLogfile (
 public method redoVAuthUpdateTellerTrans (
 )
 {
-   jBC: REDO.V.AUTH.UPDATE.TELLER.TRANS
+    jBC: REDO.V.AUTH.UPDATE.TELLER.TRANS
 }
 
 
@@ -4867,7 +4614,7 @@ public method redoVAuthUpdateTellerTrans (
 public method redoVAuthUpdtPaymnt (
 )
 {
-   jBC: REDO.V.AUTH.UPDT.PAYMNT
+    jBC: REDO.V.AUTH.UPDT.PAYMNT
 }
 
 
@@ -4875,7 +4622,7 @@ public method redoVAuthUpdtPaymnt (
 public method redoVAuthVerifyGarStaff (
 )
 {
-   jBC: REDO.V.AUTH.VERIFY.GAR.STAFF
+    jBC: REDO.V.AUTH.VERIFY.GAR.STAFF
 }
 
 
@@ -4883,7 +4630,7 @@ public method redoVAuthVerifyGarStaff (
 public method redoVAuthWvCommTax (
 )
 {
-   jBC: REDO.V.AUTH.WV.COMM.TAX
+    jBC: REDO.V.AUTH.WV.COMM.TAX
 }
 
 
@@ -4891,7 +4638,7 @@ public method redoVAuthWvCommTax (
 public method redoVBranchGroup (
 )
 {
-   jBC: REDO.V.BRANCH.GROUP
+    jBC: REDO.V.BRANCH.GROUP
 }
 
 
@@ -4899,7 +4646,7 @@ public method redoVBranchGroup (
 public method redoVBranchGroup1 (
 )
 {
-   jBC: REDO.V.BRANCH.GROUP1
+    jBC: REDO.V.BRANCH.GROUP1
 }
 
 
@@ -4907,7 +4654,7 @@ public method redoVBranchGroup1 (
 public method redoVCalCredPayof (
 )
 {
-   jBC: REDO.V.CAL.CRED.PAYOF
+    jBC: REDO.V.CAL.CRED.PAYOF
 }
 
 
@@ -4915,18 +4662,18 @@ public method redoVCalCredPayof (
 public method redoVCalCredPayoff (
 )
 {
-   jBC: REDO.V.CAL.CRED.PAYOFF
+    jBC: REDO.V.CAL.CRED.PAYOFF
 }
 
 
 
 public method redoVCallUsdEqv (
-   INOUT yUsdAmount string,
-   INOUT yRecStatus string,
-   INOUT yCurrNo string
+    INOUT yUsdAmount string,
+    INOUT yRecStatus string,
+    INOUT yCurrNo string
 )
 {
-   jBC: REDO.V.CALL.USD.EQV
+    jBC: REDO.V.CALL.USD.EQV
 }
 
 
@@ -4934,7 +4681,7 @@ public method redoVCallUsdEqv (
 public method redoVCheckCompId (
 )
 {
-   jBC: REDO.V.CHECK.COMP.ID
+    jBC: REDO.V.CHECK.COMP.ID
 }
 
 
@@ -4942,19 +4689,19 @@ public method redoVCheckCompId (
 public method redoVCheckPassportCountry (
 )
 {
-   jBC: REDO.V.CHECK.PASSPORT.COUNTRY
+    jBC: REDO.V.CHECK.PASSPORT.COUNTRY
 }
 
 
 
 public method redoVChkAcceptQty (
-   INOUT cardReq string,
-   INOUT cardTypes string,
-   INOUT totCardCnt string,
-   INOUT cardTypeFld string
+    INOUT cardReq string,
+    INOUT cardTypes string,
+    INOUT totCardCnt string,
+    INOUT cardTypeFld string
 )
 {
-   jBC: REDO.V.CHK.ACCEPT.QTY
+    jBC: REDO.V.CHK.ACCEPT.QTY
 }
 
 
@@ -4962,7 +4709,7 @@ public method redoVChkAcceptQty (
 public method redoVChkAcctEnri (
 )
 {
-   jBC: REDO.V.CHK.ACCT.ENRI
+    jBC: REDO.V.CHK.ACCT.ENRI
 }
 
 
@@ -4970,7 +4717,7 @@ public method redoVChkAcctEnri (
 public method redoVChkAvaInstr (
 )
 {
-   jBC: REDO.V.CHK.AVA.INSTR
+    jBC: REDO.V.CHK.AVA.INSTR
 }
 
 
@@ -4978,7 +4725,7 @@ public method redoVChkAvaInstr (
 public method redoVChkFxOvr (
 )
 {
-   jBC: REDO.V.CHK.FX.OVR
+    jBC: REDO.V.CHK.FX.OVR
 }
 
 
@@ -4986,7 +4733,7 @@ public method redoVChkFxOvr (
 public method redoVChkIdentityType (
 )
 {
-   jBC: REDO.V.CHK.IDENTITY.TYPE
+    jBC: REDO.V.CHK.IDENTITY.TYPE
 }
 
 
@@ -4994,7 +4741,7 @@ public method redoVChkIdentityType (
 public method redoVChkIntCrAcbal (
 )
 {
-   jBC: REDO.V.CHK.INT.CR.ACBAL
+    jBC: REDO.V.CHK.INT.CR.ACBAL
 }
 
 
@@ -5002,7 +4749,7 @@ public method redoVChkIntCrAcbal (
 public method redoVChkIntNostroAccts (
 )
 {
-   jBC: REDO.V.CHK.INT.NOSTRO.ACCTS
+    jBC: REDO.V.CHK.INT.NOSTRO.ACCTS
 }
 
 
@@ -5010,13 +4757,15 @@ public method redoVChkIntNostroAccts (
 public method redoVChkIntacbal (
 )
 {
-   jBC: REDO.V.CHK.INTACBAL
+    jBC: REDO.V.CHK.INTACBAL
 }
+
+
 
 public method redoVChkTaxChrg (
 )
 {
-   jBC: REDO.V.CHK.TAX.CHRG
+    jBC: REDO.V.CHK.TAX.CHRG
 }
 
 
@@ -5024,7 +4773,7 @@ public method redoVChkTaxChrg (
 public method redoVChkTaxChrgClearing (
 )
 {
-   jBC: REDO.V.CHK.TAX.CHRG.CLEARING
+    jBC: REDO.V.CHK.TAX.CHRG.CLEARING
 }
 
 
@@ -5032,7 +4781,7 @@ public method redoVChkTaxChrgClearing (
 public method redoVChkTellerDenomUnit (
 )
 {
-   jBC: REDO.V.CHK.TELLER.DENOM.UNIT
+    jBC: REDO.V.CHK.TELLER.DENOM.UNIT
 }
 
 
@@ -5040,7 +4789,7 @@ public method redoVChkTellerDenomUnit (
 public method redoVChkTellerId (
 )
 {
-   jBC: REDO.V.CHK.TELLER.ID
+    jBC: REDO.V.CHK.TELLER.ID
 }
 
 
@@ -5048,7 +4797,7 @@ public method redoVChkTellerId (
 public method redoVChkTellerId1 (
 )
 {
-   jBC: REDO.V.CHK.TELLER.ID1
+    jBC: REDO.V.CHK.TELLER.ID1
 }
 
 
@@ -5056,7 +4805,7 @@ public method redoVChkTellerId1 (
 public method redoVDdAuthUpdNcf (
 )
 {
-   jBC: REDO.V.DD.AUTH.UPD.NCF
+    jBC: REDO.V.DD.AUTH.UPD.NCF
 }
 
 
@@ -5064,7 +4813,7 @@ public method redoVDdAuthUpdNcf (
 public method redoVDefArcLoanStatusCond (
 )
 {
-   jBC: REDO.V.DEF.ARC.LOAN.STATUS.COND
+    jBC: REDO.V.DEF.ARC.LOAN.STATUS.COND
 }
 
 
@@ -5072,7 +4821,7 @@ public method redoVDefArcLoanStatusCond (
 public method redoVDefFtLoanStatusCond (
 )
 {
-   jBC: REDO.V.DEF.FT.LOAN.STATUS.COND
+    jBC: REDO.V.DEF.FT.LOAN.STATUS.COND
 }
 
 
@@ -5080,7 +4829,7 @@ public method redoVDefFtLoanStatusCond (
 public method redoVDefFtLoanStatusCondDisb (
 )
 {
-   jBC: REDO.V.DEF.FT.LOAN.STATUS.COND.DISB
+    jBC: REDO.V.DEF.FT.LOAN.STATUS.COND.DISB
 }
 
 
@@ -5088,7 +4837,7 @@ public method redoVDefFtLoanStatusCondDisb (
 public method redoVDefIvrLoanStatusCond (
 )
 {
-   jBC: REDO.V.DEF.IVR.LOAN.STATUS.COND
+    jBC: REDO.V.DEF.IVR.LOAN.STATUS.COND
 }
 
 
@@ -5096,7 +4845,7 @@ public method redoVDefIvrLoanStatusCond (
 public method redoVDefaultAch (
 )
 {
-   jBC: REDO.V.DEFAULT.ACH
+    jBC: REDO.V.DEFAULT.ACH
 }
 
 
@@ -5104,7 +4853,7 @@ public method redoVDefaultAch (
 public method redoVDefaultBenOtAcct (
 )
 {
-   jBC: REDO.V.DEFAULT.BEN.OT.ACCT
+    jBC: REDO.V.DEFAULT.BEN.OT.ACCT
 }
 
 
@@ -5112,7 +4861,7 @@ public method redoVDefaultBenOtAcct (
 public method redoVDefaultCommAmt (
 )
 {
-   jBC: REDO.V.DEFAULT.COMM.AMT
+    jBC: REDO.V.DEFAULT.COMM.AMT
 }
 
 
@@ -5120,7 +4869,7 @@ public method redoVDefaultCommAmt (
 public method redoVDefaultDeptAcctNo (
 )
 {
-   jBC: REDO.V.DEFAULT.DEPT.ACCT.NO
+    jBC: REDO.V.DEFAULT.DEPT.ACCT.NO
 }
 
 
@@ -5128,7 +4877,7 @@ public method redoVDefaultDeptAcctNo (
 public method redoVDefaultInternalAcct (
 )
 {
-   jBC: REDO.V.DEFAULT.INTERNAL.ACCT
+    jBC: REDO.V.DEFAULT.INTERNAL.ACCT
 }
 
 
@@ -5136,7 +4885,7 @@ public method redoVDefaultInternalAcct (
 public method redoVExpDate (
 )
 {
-   jBC: REDO.V.EXP.DATE
+    jBC: REDO.V.EXP.DATE
 }
 
 
@@ -5144,7 +4893,7 @@ public method redoVExpDate (
 public method redoVExpDateCal (
 )
 {
-   jBC: REDO.V.EXP.DATE.CAL
+    jBC: REDO.V.EXP.DATE.CAL
 }
 
 
@@ -5152,7 +4901,7 @@ public method redoVExpDateCal (
 public method redoVExpDays (
 )
 {
-   jBC: REDO.V.EXP.DAYS
+    jBC: REDO.V.EXP.DAYS
 }
 
 
@@ -5160,7 +4909,7 @@ public method redoVExpDays (
 public method redoVFiTransactAmt (
 )
 {
-   jBC: REDO.V.FI.TRANSACT.AMT
+    jBC: REDO.V.FI.TRANSACT.AMT
 }
 
 
@@ -5168,7 +4917,7 @@ public method redoVFiTransactAmt (
 public method redoVFiTransactId (
 )
 {
-   jBC: REDO.V.FI.TRANSACT.ID
+    jBC: REDO.V.FI.TRANSACT.ID
 }
 
 
@@ -5176,7 +4925,7 @@ public method redoVFiTransactId (
 public method redoVFxAuthUpdNcf (
 )
 {
-   jBC: REDO.V.FX.AUTH.UPD.NCF
+    jBC: REDO.V.FX.AUTH.UPD.NCF
 }
 
 
@@ -5184,7 +4933,7 @@ public method redoVFxAuthUpdNcf (
 public method redoVFxCcyPos (
 )
 {
-   jBC: REDO.V.FX.CCY.POS
+    jBC: REDO.V.FX.CCY.POS
 }
 
 
@@ -5192,7 +4941,7 @@ public method redoVFxCcyPos (
 public method redoVFxChkFwd (
 )
 {
-   jBC: REDO.V.FX.CHK.FWD
+    jBC: REDO.V.FX.CHK.FWD
 }
 
 
@@ -5200,7 +4949,7 @@ public method redoVFxChkFwd (
 public method redoVFxChkSpot (
 )
 {
-   jBC: REDO.V.FX.CHK.SPOT
+    jBC: REDO.V.FX.CHK.SPOT
 }
 
 
@@ -5208,7 +4957,7 @@ public method redoVFxChkSpot (
 public method redoVFxRefNum (
 )
 {
-   jBC: REDO.V.FX.REF.NUM
+    jBC: REDO.V.FX.REF.NUM
 }
 
 
@@ -5216,7 +4965,7 @@ public method redoVFxRefNum (
 public method redoVIdTtidComp (
 )
 {
-   jBC: REDO.V.ID.TTID.COMP
+    jBC: REDO.V.ID.TTID.COMP
 }
 
 
@@ -5224,7 +4973,7 @@ public method redoVIdTtidComp (
 public method redoVIdTtidCreate (
 )
 {
-   jBC: REDO.V.ID.TTID.CREATE
+    jBC: REDO.V.ID.TTID.CREATE
 }
 
 
@@ -5232,7 +4981,7 @@ public method redoVIdTtidCreate (
 public method redoVIdTtidOpen (
 )
 {
-   jBC: REDO.V.ID.TTID.OPEN
+    jBC: REDO.V.ID.TTID.OPEN
 }
 
 
@@ -5240,7 +4989,7 @@ public method redoVIdTtidOpen (
 public method redoVIdTtidVault (
 )
 {
-   jBC: REDO.V.ID.TTID.VAULT
+    jBC: REDO.V.ID.TTID.VAULT
 }
 
 
@@ -5248,7 +4997,7 @@ public method redoVIdTtidVault (
 public method redoVInpAccDefTasaPool (
 )
 {
-   jBC: REDO.V.INP.ACC.DEF.TASA.POOL
+    jBC: REDO.V.INP.ACC.DEF.TASA.POOL
 }
 
 
@@ -5256,7 +5005,7 @@ public method redoVInpAccDefTasaPool (
 public method redoVInpArcibAcctUpload (
 )
 {
-   jBC: REDO.V.INP.ARCIB.ACCT.UPLOAD
+    jBC: REDO.V.INP.ARCIB.ACCT.UPLOAD
 }
 
 
@@ -5264,7 +5013,7 @@ public method redoVInpArcibAcctUpload (
 public method redoVInpArcibCcard (
 )
 {
-   jBC: REDO.V.INP.ARCIB.CCARD
+    jBC: REDO.V.INP.ARCIB.CCARD
 }
 
 
@@ -5272,7 +5021,7 @@ public method redoVInpArcibCcard (
 public method redoVInpAtmAcct (
 )
 {
-   jBC: REDO.V.INP.ATM.ACCT
+    jBC: REDO.V.INP.ATM.ACCT
 }
 
 
@@ -5280,7 +5029,7 @@ public method redoVInpAtmAcct (
 public method redoVInpAzAccDefTasaPool (
 )
 {
-   jBC: REDO.V.INP.AZ.ACC.DEF.TASA.POOL
+    jBC: REDO.V.INP.AZ.ACC.DEF.TASA.POOL
 }
 
 
@@ -5288,7 +5037,7 @@ public method redoVInpAzAccDefTasaPool (
 public method redoVInpAzIntLiqChk (
 )
 {
-   jBC: REDO.V.INP.AZ.INT.LIQ.CHK
+    jBC: REDO.V.INP.AZ.INT.LIQ.CHK
 }
 
 
@@ -5296,7 +5045,7 @@ public method redoVInpAzIntLiqChk (
 public method redoVInpCaptureText (
 )
 {
-   jBC: REDO.V.INP.CAPTURE.TEXT
+    jBC: REDO.V.INP.CAPTURE.TEXT
 }
 
 
@@ -5304,7 +5053,7 @@ public method redoVInpCaptureText (
 public method redoVInpCertDetails (
 )
 {
-   jBC: REDO.V.INP.CERT.DETAILS
+    jBC: REDO.V.INP.CERT.DETAILS
 }
 
 
@@ -5312,7 +5061,7 @@ public method redoVInpCertDetails (
 public method redoVInpCheckAmt (
 )
 {
-   jBC: REDO.V.INP.CHECK.AMT
+    jBC: REDO.V.INP.CHECK.AMT
 }
 
 
@@ -5320,7 +5069,7 @@ public method redoVInpCheckAmt (
 public method redoVInpCheckAmtSmb (
 )
 {
-   jBC: REDO.V.INP.CHECK.AMT.SMB
+    jBC: REDO.V.INP.CHECK.AMT.SMB
 }
 
 
@@ -5328,7 +5077,7 @@ public method redoVInpCheckAmtSmb (
 public method redoVInpCheckCategMm (
 )
 {
-   jBC: REDO.V.INP.CHECK.CATEG.MM
+    jBC: REDO.V.INP.CHECK.CATEG.MM
 }
 
 
@@ -5336,7 +5085,7 @@ public method redoVInpCheckCategMm (
 public method redoVInpCheckStatus (
 )
 {
-   jBC: REDO.V.INP.CHECK.STATUS
+    jBC: REDO.V.INP.CHECK.STATUS
 }
 
 
@@ -5344,7 +5093,7 @@ public method redoVInpCheckStatus (
 public method redoVInpCheckTelVal (
 )
 {
-   jBC: REDO.V.INP.CHECK.TEL.VAL
+    jBC: REDO.V.INP.CHECK.TEL.VAL
 }
 
 
@@ -5352,7 +5101,7 @@ public method redoVInpCheckTelVal (
 public method redoVInpCheckTransfer (
 )
 {
-   jBC: REDO.V.INP.CHECK.TRANSFER
+    jBC: REDO.V.INP.CHECK.TRANSFER
 }
 
 
@@ -5360,7 +5109,7 @@ public method redoVInpCheckTransfer (
 public method redoVInpCheckTtBeneficary (
 )
 {
-   jBC: REDO.V.INP.CHECK.TT.BENEFICARY
+    jBC: REDO.V.INP.CHECK.TT.BENEFICARY
 }
 
 
@@ -5368,7 +5117,7 @@ public method redoVInpCheckTtBeneficary (
 public method redoVInpCheckTxnPay (
 )
 {
-   jBC: REDO.V.INP.CHECK.TXN.PAY
+    jBC: REDO.V.INP.CHECK.TXN.PAY
 }
 
 
@@ -5376,7 +5125,7 @@ public method redoVInpCheckTxnPay (
 public method redoVInpChkQty (
 )
 {
-   jBC: REDO.V.INP.CHK.QTY
+    jBC: REDO.V.INP.CHK.QTY
 }
 
 
@@ -5384,23 +5133,16 @@ public method redoVInpChkQty (
 public method redoVInpChkYield (
 )
 {
-   jBC: REDO.V.INP.CHK.YIELD
+    jBC: REDO.V.INP.CHK.YIELD
 }
 
-
-
-public method redoVInpChqRetLoanSt (
-)
-{
-   jBC: REDO.V.INP.CHQ.RET.LOAN.ST
-}
 
 
 
 public method redoVInpClaimCharge (
 )
 {
-   jBC: REDO.V.INP.CLAIM.CHARGE
+    jBC: REDO.V.INP.CLAIM.CHARGE
 }
 
 
@@ -5408,7 +5150,7 @@ public method redoVInpClaimCharge (
 public method redoVInpClaimDataConfirmed (
 )
 {
-   jBC: REDO.V.INP.CLAIM.DATA.CONFIRMED
+    jBC: REDO.V.INP.CLAIM.DATA.CONFIRMED
 }
 
 
@@ -5416,7 +5158,7 @@ public method redoVInpClaimDataConfirmed (
 public method redoVInpCompDataConfirmed (
 )
 {
-   jBC: REDO.V.INP.COMP.DATA.CONFIRMED
+    jBC: REDO.V.INP.COMP.DATA.CONFIRMED
 }
 
 
@@ -5424,7 +5166,7 @@ public method redoVInpCompDataConfirmed (
 public method redoVInpCompDateResol (
 )
 {
-   jBC: REDO.V.INP.COMP.DATE.RESOL
+    jBC: REDO.V.INP.COMP.DATE.RESOL
 }
 
 
@@ -5432,7 +5174,7 @@ public method redoVInpCompDateResol (
 public method redoVInpCompDateResolution (
 )
 {
-   jBC: REDO.V.INP.COMP.DATE.RESOLUTION
+    jBC: REDO.V.INP.COMP.DATE.RESOLUTION
 }
 
 
@@ -5440,7 +5182,7 @@ public method redoVInpCompDateResolution (
 public method redoVInpCompRecpDate (
 )
 {
-   jBC: REDO.V.INP.COMP.RECP.DATE
+    jBC: REDO.V.INP.COMP.RECP.DATE
 }
 
 
@@ -5448,7 +5190,7 @@ public method redoVInpCompRecpDate (
 public method redoVInpCompRiskLevel (
 )
 {
-   jBC: REDO.V.INP.COMP.RISK.LEVEL
+    jBC: REDO.V.INP.COMP.RISK.LEVEL
 }
 
 
@@ -5456,7 +5198,7 @@ public method redoVInpCompRiskLevel (
 public method redoVInpCustomerCheck (
 )
 {
-   jBC: REDO.V.INP.CUSTOMER.CHECK
+    jBC: REDO.V.INP.CUSTOMER.CHECK
 }
 
 
@@ -5464,7 +5206,7 @@ public method redoVInpCustomerCheck (
 public method redoVInpDbAccCheck (
 )
 {
-   jBC: REDO.V.INP.DB.ACC.CHECK
+    jBC: REDO.V.INP.DB.ACC.CHECK
 }
 
 
@@ -5472,7 +5214,7 @@ public method redoVInpDbAccCheck (
 public method redoVInpDebitAccNotify (
 )
 {
-   jBC: REDO.V.INP.DEBIT.ACC.NOTIFY
+    jBC: REDO.V.INP.DEBIT.ACC.NOTIFY
 }
 
 
@@ -5480,23 +5222,17 @@ public method redoVInpDebitAccNotify (
 public method redoVInpDefaultAcSc (
 )
 {
-   jBC: REDO.V.INP.DEFAULT.AC.SC
+    jBC: REDO.V.INP.DEFAULT.AC.SC
 }
 
 
-
-public method redoVInpDefaultAcct (
-)
-{
-   jBC: REDO.V.INP.DEFAULT.ACCT
-}
 
 
 
 public method redoVInpDueBill (
 )
 {
-   jBC: REDO.V.INP.DUE.BILL
+    jBC: REDO.V.INP.DUE.BILL
 }
 
 
@@ -5504,7 +5240,7 @@ public method redoVInpDueBill (
 public method redoVInpDueCheck (
 )
 {
-   jBC: REDO.V.INP.DUE.CHECK
+    jBC: REDO.V.INP.DUE.CHECK
 }
 
 
@@ -5512,7 +5248,7 @@ public method redoVInpDueCheck (
 public method redoVInpDumRou (
 )
 {
-   jBC: REDO.V.INP.DUM.ROU
+    jBC: REDO.V.INP.DUM.ROU
 }
 
 
@@ -5520,7 +5256,7 @@ public method redoVInpDumRou (
 public method redoVInpFrClaimDocReceived (
 )
 {
-   jBC: REDO.V.INP.FR.CLAIM.DOC.RECEIVED
+    jBC: REDO.V.INP.FR.CLAIM.DOC.RECEIVED
 }
 
 
@@ -5528,13 +5264,18 @@ public method redoVInpFrClaimDocReceived (
 public method redoVInpFrCompCharge (
 )
 {
-   jBC: REDO.V.INP.FR.COMP.CHARGE
+    jBC: REDO.V.INP.FR.COMP.CHARGE
 }
+
+
+
+
+
 
 public method redoVTelSubGroup (
 )
 {
-   jBC: REDO.V.TEL.SUB.GROUP
+    jBC: REDO.V.TEL.SUB.GROUP
 }
 
 
@@ -5542,7 +5283,7 @@ public method redoVTelSubGroup (
 public method redoVTempAccountSearchVp (
 )
 {
-   jBC: REDO.V.TEMP.ACCOUNT.SEARCH.VP
+    jBC: REDO.V.TEMP.ACCOUNT.SEARCH.VP
 }
 
 
@@ -5550,13 +5291,16 @@ public method redoVTempAccountSearchVp (
 public method redoVTempCrdDebValueDate (
 )
 {
-   jBC: REDO.V.TEMP.CRD.DEB.VALUE.DATE
+    jBC: REDO.V.TEMP.CRD.DEB.VALUE.DATE
 }
+
+
+
 
 public method redoVTempDebAccSavCur (
 )
 {
-   jBC: REDO.V.TEMP.DEB.ACC.SAV.CUR
+    jBC: REDO.V.TEMP.DEB.ACC.SAV.CUR
 }
 
 
@@ -5564,7 +5308,7 @@ public method redoVTempDebAccSavCur (
 public method redoVTempDisbCondOvrde (
 )
 {
-   jBC: REDO.V.TEMP.DISB.COND.OVRDE
+    jBC: REDO.V.TEMP.DISB.COND.OVRDE
 }
 
 
@@ -5572,7 +5316,7 @@ public method redoVTempDisbCondOvrde (
 public method redoVTempGetPayMethod (
 )
 {
-   jBC: REDO.V.TEMP.GET.PAY.METHOD
+    jBC: REDO.V.TEMP.GET.PAY.METHOD
 }
 
 
@@ -5580,7 +5324,7 @@ public method redoVTempGetPayMethod (
 public method redoVTtDefBrVault (
 )
 {
-   jBC: REDO.V.TT.DEF.BR.VAULT
+    jBC: REDO.V.TT.DEF.BR.VAULT
 }
 
 
@@ -5588,7 +5332,7 @@ public method redoVTtDefBrVault (
 public method redoVTtDefDrunit (
 )
 {
-   jBC: REDO.V.TT.DEF.DRUNIT
+    jBC: REDO.V.TT.DEF.DRUNIT
 }
 
 
@@ -5596,7 +5340,7 @@ public method redoVTtDefDrunit (
 public method redoVTtFtChqZero (
 )
 {
-   jBC: REDO.V.TT.FT.CHQ.ZERO
+    jBC: REDO.V.TT.FT.CHQ.ZERO
 }
 
 
@@ -5604,7 +5348,7 @@ public method redoVTtFtChqZero (
 public method redoVTtParaLimVerify (
 )
 {
-   jBC: REDO.V.TT.PARA.LIM.VERIFY
+    jBC: REDO.V.TT.PARA.LIM.VERIFY
 }
 
 
@@ -5612,7 +5356,7 @@ public method redoVTtParaLimVerify (
 public method redoVTtSameTillTrf (
 )
 {
-   jBC: REDO.V.TT.SAME.TILL.TRF
+    jBC: REDO.V.TT.SAME.TILL.TRF
 }
 
 
@@ -5620,7 +5364,7 @@ public method redoVTtSameTillTrf (
 public method redoVUpdateDiscAmort (
 )
 {
-   jBC: REDO.V.UPDATE.DISC.AMORT
+    jBC: REDO.V.UPDATE.DISC.AMORT
 }
 
 
@@ -5628,7 +5372,7 @@ public method redoVUpdateDiscAmort (
 public method redoVValAcAvailBal (
 )
 {
-   jBC: REDO.V.VAL.AC.AVAIL.BAL
+    jBC: REDO.V.VAL.AC.AVAIL.BAL
 }
 
 
@@ -5636,7 +5380,7 @@ public method redoVValAcAvailBal (
 public method redoVValAcVeriPendChg (
 )
 {
-   jBC: REDO.V.VAL.AC.VERI.PEND.CHG
+    jBC: REDO.V.VAL.AC.VERI.PEND.CHG
 }
 
 
@@ -5644,7 +5388,7 @@ public method redoVValAcVeriPendChg (
 public method redoVValAccImgSearch (
 )
 {
-   jBC: REDO.V.VAL.ACC.IMG.SEARCH
+    jBC: REDO.V.VAL.ACC.IMG.SEARCH
 }
 
 
@@ -5652,13 +5396,17 @@ public method redoVValAccImgSearch (
 public method redoVValAccount (
 )
 {
-   jBC: REDO.V.VAL.ACCOUNT
+    jBC: REDO.V.VAL.ACCOUNT
 }
+
+
+
+
 
 public method redoVValActaNac (
 )
 {
-   jBC: REDO.V.VAL.ACTA.NAC
+    jBC: REDO.V.VAL.ACTA.NAC
 }
 
 
@@ -5666,13 +5414,16 @@ public method redoVValActaNac (
 public method redoVValActivationStatus (
 )
 {
-   jBC: REDO.V.VAL.ACTIVATION.STATUS
+    jBC: REDO.V.VAL.ACTIVATION.STATUS
 }
+
+
+
 
 public method redoVValAddCon (
 )
 {
-   jBC: REDO.V.VAL.ADD.CON
+    jBC: REDO.V.VAL.ADD.CON
 }
 
 
@@ -5680,7 +5431,7 @@ public method redoVValAddCon (
 public method redoVValAllAcc (
 )
 {
-   jBC: REDO.V.VAL.ALL.ACC
+    jBC: REDO.V.VAL.ALL.ACC
 }
 
 
@@ -5688,7 +5439,7 @@ public method redoVValAllAcc (
 public method redoVValAmount (
 )
 {
-   jBC: REDO.V.VAL.AMOUNT
+    jBC: REDO.V.VAL.AMOUNT
 }
 
 
@@ -5696,7 +5447,7 @@ public method redoVValAmount (
 public method redoVValApp (
 )
 {
-   jBC: REDO.V.VAL.APP
+    jBC: REDO.V.VAL.APP
 }
 
 
@@ -5704,7 +5455,7 @@ public method redoVValApp (
 public method redoVValArcStatus (
 )
 {
-   jBC: REDO.V.VAL.ARC.STATUS
+    jBC: REDO.V.VAL.ARC.STATUS
 }
 
 
@@ -5712,7 +5463,7 @@ public method redoVValArcStatus (
 public method redoVValArcibAccts (
 )
 {
-   jBC: REDO.V.VAL.ARCIB.ACCTS
+    jBC: REDO.V.VAL.ARCIB.ACCTS
 }
 
 
@@ -5720,7 +5471,7 @@ public method redoVValArcibAccts (
 public method redoVValBeneficiary (
 )
 {
-   jBC: REDO.V.VAL.BENEFICIARY
+    jBC: REDO.V.VAL.BENEFICIARY
 }
 
 
@@ -5728,7 +5479,7 @@ public method redoVValBeneficiary (
 public method redoVValBlockNo (
 )
 {
-   jBC: REDO.V.VAL.BLOCK.NO
+    jBC: REDO.V.VAL.BLOCK.NO
 }
 
 
@@ -5736,7 +5487,7 @@ public method redoVValBlockNo (
 public method redoVValCalFecMes (
 )
 {
-   jBC: REDO.V.VAL.CAL.FEC.MES
+    jBC: REDO.V.VAL.CAL.FEC.MES
 }
 
 
@@ -5744,7 +5495,7 @@ public method redoVValCalFecMes (
 public method redoVValCalcMaxColla (
 )
 {
-   jBC: REDO.V.VAL.CALC.MAX.COLLA
+    jBC: REDO.V.VAL.CALC.MAX.COLLA
 }
 
 
@@ -5752,7 +5503,7 @@ public method redoVValCalcMaxColla (
 public method redoVValCalcOfPayment (
 )
 {
-   jBC: REDO.V.VAL.CALC.OF.PAYMENT
+    jBC: REDO.V.VAL.CALC.OF.PAYMENT
 }
 
 
@@ -5760,7 +5511,7 @@ public method redoVValCalcOfPayment (
 public method redoVValCardBin (
 )
 {
-   jBC: REDO.V.VAL.CARD.BIN
+    jBC: REDO.V.VAL.CARD.BIN
 }
 
 
@@ -5768,7 +5519,7 @@ public method redoVValCardBin (
 public method redoVValCardCharge (
 )
 {
-   jBC: REDO.V.VAL.CARD.CHARGE
+    jBC: REDO.V.VAL.CARD.CHARGE
 }
 
 
@@ -5776,7 +5527,7 @@ public method redoVValCardCharge (
 public method redoVValCardRenewProc (
 )
 {
-   jBC: REDO.V.VAL.CARD.RENEW.PROC
+    jBC: REDO.V.VAL.CARD.RENEW.PROC
 }
 
 
@@ -5784,7 +5535,7 @@ public method redoVValCardRenewProc (
 public method redoVValCcyLimit (
 )
 {
-   jBC: REDO.V.VAL.CCY.LIMIT
+    jBC: REDO.V.VAL.CCY.LIMIT
 }
 
 
@@ -5792,7 +5543,7 @@ public method redoVValCcyLimit (
 public method redoVValCcyRate (
 )
 {
-   jBC: REDO.V.VAL.CCY.RATE
+    jBC: REDO.V.VAL.CCY.RATE
 }
 
 
@@ -5800,7 +5551,7 @@ public method redoVValCcyRate (
 public method redoVValChequeNum (
 )
 {
-   jBC: REDO.V.VAL.CHEQUE.NUM
+    jBC: REDO.V.VAL.CHEQUE.NUM
 }
 
 
@@ -5808,7 +5559,7 @@ public method redoVValChequeNum (
 public method redoVValChqNumMan (
 )
 {
-   jBC: REDO.V.VAL.CHQ.NUM.MAN
+    jBC: REDO.V.VAL.CHQ.NUM.MAN
 }
 
 
@@ -5816,7 +5567,7 @@ public method redoVValChqNumMan (
 public method redoVValCiuuCategory (
 )
 {
-   jBC: REDO.V.VAL.CIUU.CATEGORY
+    jBC: REDO.V.VAL.CIUU.CATEGORY
 }
 
 
@@ -5824,7 +5575,7 @@ public method redoVValCiuuCategory (
 public method redoVValClaimSplDateResol (
 )
 {
-   jBC: REDO.V.VAL.CLAIM.SPL.DATE.RESOL
+    jBC: REDO.V.VAL.CLAIM.SPL.DATE.RESOL
 }
 
 
@@ -5832,7 +5583,7 @@ public method redoVValClaimSplDateResol (
 public method redoVValClaimStatus (
 )
 {
-   jBC: REDO.V.VAL.CLAIM.STATUS
+    jBC: REDO.V.VAL.CLAIM.STATUS
 }
 
 
@@ -5840,7 +5591,7 @@ public method redoVValClaimStatus (
 public method redoVValCompId (
 )
 {
-   jBC: REDO.V.VAL.COMP.ID
+    jBC: REDO.V.VAL.COMP.ID
 }
 
 
@@ -5848,7 +5599,7 @@ public method redoVValCompId (
 public method redoVValCompName (
 )
 {
-   jBC: REDO.V.VAL.COMP.NAME
+    jBC: REDO.V.VAL.COMP.NAME
 }
 
 
@@ -5856,7 +5607,7 @@ public method redoVValCompName (
 public method redoVValCompStatus (
 )
 {
-   jBC: REDO.V.VAL.COMP.STATUS
+    jBC: REDO.V.VAL.COMP.STATUS
 }
 
 
@@ -5864,7 +5615,7 @@ public method redoVValCompStatus (
 public method redoVValContactStatus (
 )
 {
-   jBC: REDO.V.VAL.CONTACT.STATUS
+    jBC: REDO.V.VAL.CONTACT.STATUS
 }
 
 
@@ -5872,7 +5623,7 @@ public method redoVValContactStatus (
 public method redoVValContractNumb (
 )
 {
-   jBC: REDO.V.VAL.CONTRACT.NUMB
+    jBC: REDO.V.VAL.CONTRACT.NUMB
 }
 
 
@@ -5880,7 +5631,7 @@ public method redoVValContractNumb (
 public method redoVValCredPayof (
 )
 {
-   jBC: REDO.V.VAL.CRED.PAYOF
+    jBC: REDO.V.VAL.CRED.PAYOF
 }
 
 
@@ -5888,7 +5639,7 @@ public method redoVValCredPayof (
 public method redoVValCreditAcc (
 )
 {
-   jBC: REDO.V.VAL.CREDIT.ACC
+    jBC: REDO.V.VAL.CREDIT.ACC
 }
 
 
@@ -5896,7 +5647,7 @@ public method redoVValCreditAcc (
 public method redoVValCreditAccount (
 )
 {
-   jBC: REDO.V.VAL.CREDIT.ACCOUNT
+    jBC: REDO.V.VAL.CREDIT.ACCOUNT
 }
 
 
@@ -5904,13 +5655,15 @@ public method redoVValCreditAccount (
 public method redoVValCreditImg (
 )
 {
-   jBC: REDO.V.VAL.CREDIT.IMG
+    jBC: REDO.V.VAL.CREDIT.IMG
 }
+
+
 
 public method redoVValCustomerInitial (
 )
 {
-   jBC: REDO.V.VAL.CUSTOMER.INITIAL
+    jBC: REDO.V.VAL.CUSTOMER.INITIAL
 }
 
 
@@ -5918,7 +5671,7 @@ public method redoVValCustomerInitial (
 public method redoVValDamageLost (
 )
 {
-   jBC: REDO.V.VAL.DAMAGE.LOST
+    jBC: REDO.V.VAL.DAMAGE.LOST
 }
 
 
@@ -5926,7 +5679,7 @@ public method redoVValDamageLost (
 public method redoVValDate (
 )
 {
-   jBC: REDO.V.VAL.DATE
+    jBC: REDO.V.VAL.DATE
 }
 
 
@@ -5934,7 +5687,7 @@ public method redoVValDate (
 public method redoVValDateBr (
 )
 {
-   jBC: REDO.V.VAL.DATE.BR
+    jBC: REDO.V.VAL.DATE.BR
 }
 
 
@@ -5942,7 +5695,7 @@ public method redoVValDateBr (
 public method redoVValDateDe (
 )
 {
-   jBC: REDO.V.VAL.DATE.DE
+    jBC: REDO.V.VAL.DATE.DE
 }
 
 
@@ -5950,7 +5703,7 @@ public method redoVValDateDe (
 public method redoVValDateTp (
 )
 {
-   jBC: REDO.V.VAL.DATE.TP
+    jBC: REDO.V.VAL.DATE.TP
 }
 
 
@@ -5958,15 +5711,7 @@ public method redoVValDateTp (
 public method redoVValDateUsua (
 )
 {
-   jBC: REDO.V.VAL.DATE.USUA
-}
-
-
-
-public method redoVValDdCateg (
-)
-{
-   jBC: REDO.V.VAL.DD.CATEG
+    jBC: REDO.V.VAL.DATE.USUA
 }
 
 
@@ -5974,15 +5719,7 @@ public method redoVValDdCateg (
 public method redoVValDebAccMan (
 )
 {
-   jBC: REDO.V.VAL.DEB.ACC.MAN
-}
-
-
-
-public method redoVValDebitAcct (
-)
-{
-   jBC: REDO.V.VAL.DEBIT.ACCT
+    jBC: REDO.V.VAL.DEB.ACC.MAN
 }
 
 
@@ -5990,7 +5727,7 @@ public method redoVValDebitAcct (
 public method redoVValDefaultAcct (
 )
 {
-   jBC: REDO.V.VAL.DEFAULT.ACCT
+    jBC: REDO.V.VAL.DEFAULT.ACCT
 }
 
 
@@ -5998,7 +5735,7 @@ public method redoVValDefaultAcct (
 public method redoVValDefaultAmt (
 )
 {
-   jBC: REDO.V.VAL.DEFAULT.AMT
+    jBC: REDO.V.VAL.DEFAULT.AMT
 }
 
 
@@ -6006,7 +5743,7 @@ public method redoVValDefaultAmt (
 public method redoVValDefaultDetails (
 )
 {
-   jBC: REDO.V.VAL.DEFAULT.DETAILS
+    jBC: REDO.V.VAL.DEFAULT.DETAILS
 }
 
 
@@ -6014,8 +5751,11 @@ public method redoVValDefaultDetails (
 public method redoVValDiponible (
 )
 {
-   jBC: REDO.V.VAL.DIPONIBLE
+    jBC: REDO.V.VAL.DIPONIBLE
 }
+
+
+
 
 public method redoVValDueAmt (
 )
@@ -6153,12 +5893,6 @@ public method redoVValInputtedAmti (
 
 
 
-public method redoVValInsComp (
-)
-{
-    jBC: REDO.V.VAL.INS.COMP
-}
-
 
 
 public method redoVValIssueDescClaim (
@@ -6200,15 +5934,6 @@ public method redoVValLacBalance (
 }
 
 
-
-public method redoVValLoanGlGrp (
-)
-{
-    jBC: REDO.V.VAL.LOAN.GL.GRP
-}
-
-
-
 public method redoVValLocalCheck (
 )
 {
@@ -6222,6 +5947,9 @@ public method redoVValMaximumValue (
 {
     jBC: REDO.V.VAL.MAXIMUM.VALUE
 }
+
+
+
 
 public method redoVValMaxval (
 )
@@ -6269,13 +5997,6 @@ public method redoVValNotify (
     jBC: REDO.V.VAL.NOTIFY
 }
 
-
-
-public method redoVValPaymentSchedule (
-)
-{
-    jBC: REDO.V.VAL.PAYMENT.SCHEDULE
-}
 
 
 
@@ -6326,13 +6047,6 @@ public method redoVValRatDate (
     jBC: REDO.V.VAL.RAT.DATE
 }
 
-
-
-public method redoVValRateType (
-)
-{
-    jBC: REDO.V.VAL.RATE.TYPE
-}
 
 
 
@@ -6520,13 +6234,6 @@ public method redoVValValuesTp (
 
 
 
-public method redoVValValuesVh (
-)
-{
-    jBC: REDO.V.VAL.VALUES.VH
-}
-
-
 
 public method redoVValVaultId (
 )
@@ -6585,476 +6292,11 @@ public method redoValCidentCust (
 }
 
 
-public method redoVInpFtLoanStatusCond (
+
+
+public method redoVAuthTxnReferImage (
 )
 {
-    jBC: REDO.V.INP.FT.LOAN.STATUS.COND
-}
-
-
-
-public method redoVInpFtTp (
-)
-{
-    jBC: REDO.V.INP.FT.TP
-}
-
-
-
-public method redoVInpFundChk (
-)
-{
-    jBC: REDO.V.INP.FUND.CHK
-}
-
-
-
-public method redoVInpFxLegalId (
-)
-{
-    jBC: REDO.V.INP.FX.LEGAL.ID
-}
-
-
-
-public method redoVInpFxsnOvr (
-)
-{
-    jBC: REDO.V.INP.FXSN.OVR
-}
-
-
-
-public method redoVInpIssuanceDate (
-)
-{
-    jBC: REDO.V.INP.ISSUANCE.DATE
-}
-
-
-
-public method redoVInpItemRequest (
-)
-{
-    jBC: REDO.V.INP.ITEM.REQUEST
-}
-
-
-
-public method redoVInpLegalId (
-)
-{
-    jBC: REDO.V.INP.LEGAL.ID
-}
-
-
-
-public method redoVInpLoanStatusUpdate (
-)
-{
-    jBC: REDO.V.INP.LOAN.STATUS.UPDATE
-}
-
-
-
-public method redoVInpMenorCustRtn (
-)
-{
-    jBC: REDO.V.INP.MENOR.CUST.RTN
-}
-
-
-
-public method redoVInpNostroReference (
-)
-{
-    jBC: REDO.V.INP.NOSTRO.REFERENCE
-}
-
-
-
-public method redoVInpNotifyGen (
-)
-{
-    jBC: REDO.V.INP.NOTIFY.GEN
-}
-
-
-
-public method redoVInpOfsUpdStatus (
-)
-{
-    jBC: REDO.V.INP.OFS.UPD.STATUS
-}
-
-
-
-public method redoVInpOpenTermIns (
-)
-{
-    jBC: REDO.V.INP.OPEN.TERM.INS
-}
-
-
-
-public method redoVInpOvrTlr (
-)
-{
-    jBC: REDO.V.INP.OVR.TLR
-}
-
-
-
-public method redoVInpPartProcess (
-)
-{
-    jBC: REDO.V.INP.PART.PROCESS
-}
-
-
-
-public method redoVInpPartialThrRetChq (
-)
-{
-    jBC: REDO.V.INP.PARTIAL.THR.RET.CHQ
-}
-
-
-
-public method redoVInpPayTeller (
-)
-{
-    jBC: REDO.V.INP.PAY.TELLER
-}
-
-
-
-public method redoVInpPfCustRtn (
-)
-{
-    jBC: REDO.V.INP.PF.CUST.RTN
-}
-
-
-
-public method redoVInpPjCustRtn (
-)
-{
-    jBC: REDO.V.INP.PJ.CUST.RTN
-}
-
-
-
-public method redoVInpQtyCheck (
-)
-{
-    jBC: REDO.V.INP.QTY.CHECK
-}
-
-
-
-public method redoVInpRaiseOverride (
-)
-{
-    jBC: REDO.V.INP.RAISE.OVERRIDE
-}
-
-
-
-public method redoVInpReinstate (
-)
-{
-    jBC: REDO.V.INP.REINSTATE
-}
-
-
-
-public method redoVInpRelCheck (
-)
-{
-    jBC: REDO.V.INP.REL.CHECK
-}
-
-
-
-public method redoVInpReqDataConfirmed (
-)
-{
-    jBC: REDO.V.INP.REQ.DATA.CONFIRMED
-}
-
-
-
-public method redoVInpRevIssued (
-)
-{
-    jBC: REDO.V.INP.REV.ISSUED
-}
-
-
-
-public method redoVInpRevaluation (
-)
-{
-    jBC: REDO.V.INP.REVALUATION
-}
-
-
-
-public method redoVInpRouCreditOverride (
-)
-{
-    jBC: REDO.V.INP.ROU.CREDIT.OVERRIDE
-}
-
-
-
-public method redoVInpRvkChq (
-)
-{
-    jBC: REDO.V.INP.RVK.CHQ
-}
-
-
-
-public method redoVInpSameAcctTfr (
-)
-{
-    jBC: REDO.V.INP.SAME.ACCT.TFR
-}
-
-
-
-public method redoVInpSetComp (
-)
-{
-    jBC: REDO.V.INP.SET.COMP
-}
-
-
-
-public method redoVInpSetId (
-)
-{
-    jBC: REDO.V.INP.SET.ID
-}
-
-
-
-public method redoVInpSetNcfRoutine (
-)
-{
-    jBC: REDO.V.INP.SET.NCF.ROUTINE
-}
-
-
-
-public method redoVInpSetReq (
-)
-{
-    jBC: REDO.V.INP.SET.REQ
-}
-
-
-
-public method redoVInpSetRoutine (
-)
-{
-    jBC: REDO.V.INP.SET.ROUTINE
-}
-
-
-
-public method redoVInpTaxAmt (
-)
-{
-    jBC: REDO.V.INP.TAX.AMT
-}
-
-
-
-public method redoVInpTellerCashDenom (
-)
-{
-    jBC: REDO.V.INP.TELLER.CASH.DENOM
-}
-
-
-
-public method redoVInpTellerId (
-)
-{
-    jBC: REDO.V.INP.TELLER.ID
-}
-
-
-
-public method redoVInpTfsProcess (
-)
-{
-    jBC: REDO.V.INP.TFS.PROCESS
-}
-
-
-
-public method redoVInpTfsProcessSmb (
-)
-{
-    jBC: REDO.V.INP.TFS.PROCESS.SMB
-}
-
-
-
-public method redoVInpTtDrAccCheck1 (
-)
-{
-    jBC: REDO.V.INP.TT.DR.ACC.CHECK1
-}
-
-
-
-public method redoVInpUpdCuBrPrice (
-)
-{
-    jBC: REDO.V.INP.UPD.CU.BR.PRICE
-}
-
-
-
-public method redoVInpUpdSeg (
-)
-{
-    jBC: REDO.V.INP.UPD.SEG
-}
-
-
-
-public method redoVInpUpdatePaymntSch (
-)
-{
-    jBC: REDO.V.INP.UPDATE.PAYMNT.SCH
-}
-
-
-
-public method redoVInpUpdateValueDate (
-)
-{
-    jBC: REDO.V.INP.UPDATE.VALUE.DATE
-}
-
-
-
-public method redoVItemReqDesc (
-)
-{
-    jBC: REDO.V.ITEM.REQ.DESC
-}
-
-public method redoVLatamChkCard (
-)
-{
-    jBC: REDO.V.LATAM.CHK.CARD
-}
-
-
-
-public method redoVMigLnModActAmt (
-)
-{
-    jBC: REDO.V.MIG.LN.MOD.ACT.AMT
-}
-
-
-
-public method redoVMmPrecloseIntAccr (
-)
-{
-    jBC: REDO.V.MM.PRECLOSE.INT.ACCR
-}
-
-
-
-public method redoVPrincipalIntRate (
-)
-{
-    jBC: REDO.V.PRINCIPAL.INT.RATE
-}
-
-
-
-public method redoVProgSedate (
-)
-{
-    jBC: REDO.V.PROG.SEDATE
-}
-
-
-
-public method redoVPsAuthUpdNcf (
-)
-{
-    jBC: REDO.V.PS.AUTH.UPD.NCF
-}
-
-public method redoVRateReviewFreq (
-)
-{
-    jBC: REDO.V.RATE.REVIEW.FREQ
-}
-
-
-
-public method redoVReinvCheckTransit (
-)
-{
-    jBC: REDO.V.REINV.CHECK.TRANSIT
-}
-
-
-
-public method redoVReinvRevTxn (
-)
-{
-    jBC: REDO.V.REINV.REV.TXN
-}
-
-
-
-public method redoVReinvWaiveTaxAmt (
-)
-{
-    jBC: REDO.V.REINV.WAIVE.TAX.AMT
-}
-
-
-
-public method redoVRevTtTp (
-)
-{
-    jBC: REDO.V.REV.TT.TP
-}
-
-public method redoVRevUpdDisb (
-)
-{
-    jBC: REDO.V.REV.UPD.DISB
-}
-
-
-
-public method redoVStpCondCuCp (
-    INOUT noOfAuthFlag string
-)
-{
-    jBC: REDO.V.STP.COND.CU.CP
-}
-
-
-
-public method redoVTelCusName (
-)
-{
-    jBC: REDO.V.TEL.CUS.NAME
+    jBC: REDO.V.AUTH.TXN.REFER.IMAGE
 }
 
