@@ -1,0 +1,16 @@
+component APAP.REDOVER
+# Component Isolation Definition
+metamodelVersion 1.6
+# -------------------------------------------------
+
+public method redoVValDisponibleDi (
+)
+{
+    jBC: REDO.V.VAL.DISPONIBLE.DI
+}
+
+public method redoVValDisponibleOtros (
+)
+{
+    jBC: REDO.V.VAL.DISPONIBLE.OTROS
+}
