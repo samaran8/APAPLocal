@@ -1,0 +1,29 @@
+component APAP.LAPAP
+# Component Isolation Definition
+metamodelVersion 1.6
+# -------------------------------------------------
+
+
+public method lapapLttpVTagRt (
+)
+{
+    jBC: LAPAP.LTTP.V.TAG.RT
+}
+
+
+
+public method lapapLyInputUsmov (
+)
+{
+    jBC: LAPAP.LY.INPUT.USMOV
+}
+
+
+
+public method lapapLyPointsEHis (
+    INOUT rData string
+)
+{
+    jBC: LAPAP.LY.POINTS.E.HIS
+}
+
